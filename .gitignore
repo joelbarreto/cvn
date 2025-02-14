@@ -1,0 +1,39 @@
+# Hugo-specific files
+public/
+resources/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Binary output files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific files
+*~
+
+# Backup files
+*.bak
+*.orig
+*.save
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Hugo server files
+hugo_stats.json
