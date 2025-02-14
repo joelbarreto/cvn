@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T13:10:50-08:00'
-draft = true
+draft = false
 title = 'Founders Message'
 description = "Elevating Happiness for All"
 featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.jpg"
