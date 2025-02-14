@@ -1,4 +1,4 @@
-baseURL = 'https://caringvalley.org/'
+baseURL = $CF_PAGES_URL
 title = ' Caring Valley Nonprofit'
 theme = 'ananke'
 
