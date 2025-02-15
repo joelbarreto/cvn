@@ -29,7 +29,7 @@ This is what it told me:
 ### We have a right to happiness
 Every human being has the right to *happiness* and a healthy mind is the key to sustained happiness. We need *good health* and *meaningful social connections* to feel happy. And if we have these, we will be happy even if we are low on any of the other essentials. Our survival instincts are phenomenal at keeping us alive, but they don't seem to kick in to elevate happiness. Only other humans can do that with **Compassion**, **Gratitude**, and **Love**. 
 
-
+--jb 2025-02-15 12:08:48
 
 Installing **Hugo** with *Github* integration
 ******
