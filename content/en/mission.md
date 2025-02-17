@@ -1,6 +1,6 @@
 +++
 date = '2025-02-08T14:38:34-08:00'
-draft = true
+draft = false
 title = 'Our Mission'
 description = 'To provide relief to the distressed'
 omit_header_text = false

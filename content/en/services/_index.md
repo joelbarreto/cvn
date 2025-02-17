@@ -1,4 +1,5 @@
 +++
+draft = false
 title = 'Caring Valley Services'
 description = "Local community support"
 theme_version = "2.8.2"
