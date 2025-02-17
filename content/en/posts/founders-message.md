@@ -1,14 +1,18 @@
 +++
 date = '2025-02-08T13:10:50-08:00'
-draft = false
+draft = true
 title = 'Founders Message'
-description = "Elevating Happiness for All"
+description = "How I came to think of starting Caring Valley"
 featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.jpg"
-tags = ["valley"]
+tags = ["founders"]
 +++
 
-I asked an AI agent 
-> "what are the basic necesities for humans?"
+ For many years I was contemplating doing something to help eveyone lead happier lives.<!--more--> And it all came down to an undertanding that happiness was relative to where you are in your life. It less to do with wealth and more to do with mental well being. I came to realise that for most of us, other people in our lives had the most impact on own own happiness both up and down. And even we had good family and friends our health topped any thing else. It just takes a small flu or indigestion to completely throw you off. that the main two causes of unhappiness were sickness and lack of meaningful relationships.
+ 
+---
+
+One day, I asked an AI agent
+> *what are the basic necesities for humans?*
 
 This is what it told me:
 
@@ -31,8 +35,3 @@ Every human being has the right to *happiness* and a healthy mind is the key to 
 
 --jb 2025-02-15 12:08:48
 
-Installing **Hugo** with *Github* integration
-******
-#### references ####
-- see https://gohugo.io/getting-started/quick-start/
-- [CommonMark **Spec**](https://spec.commonmark.org/)

@@ -1,0 +1,64 @@
+
+theme = 'ananke'
+
+# Site configuration
+[site]
+  baseurl = "https://caringvalley.org"
+  title = ' Caring Valley Nonprofit'
+  summaryLength = 10
+  defaultContentLanguage = "en-US"
+  sectionPagesMenu = "main"
+  enableRobotsTXT = true
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  # choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
+  featured_image_class = "cover bg-top"
+  # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
+  # cover_dimming_class = "bg-black-20"
+  recent_posts_number = 3
+  body_classes = "avenir bg-near-white"
+  show_reading_time = true
+  omit_header_text = true
+
+
+[languages]
+[languages.en]
+  disabled = false
+  mainSections = ['posts']
+  languageCode = 'en-US'
+  languageName = 'English - US'
+  languageDirection = 'ltr' # for Right-To-Left languages
+  contentDir = "content/en"
+  weight = 1
+  title = "CVN"
+
+# menu configuration
+[languages.en.menus]
+[[languages.en.menus.main]]
+  identifier = 'mission'
+  name = "Mission"
+  url = "/mission"
+  weight = 6
+[[languages.en.menus.main]]
+  identifier = 'posts'
+  name = "Posts"
+  title = 'Posts'
+  url = "/posts"
+  weight = 2
+[[languages.en.menus.main]]
+  identifier = 'services'
+  name = "Services"
+  url = "/services"
+  weight = 3
+
+
+[pagination]
+  pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+

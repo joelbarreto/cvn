@@ -1,11 +1,19 @@
 +++
 draft = true
-title = "Contact"
+
+# menu = ['footer']
+title ='Contact'
+subtitle = "Contact"
+# [languages.en.menu.main]
+#   name = "Contact"
+#   url = "/contact"
+#   weight = 1
+
 #featured_image = ""
 omit_header_text = true
 description = "We'd love to hear from you"
 type = "page"
-menu = "main"
+
 +++
 
 
