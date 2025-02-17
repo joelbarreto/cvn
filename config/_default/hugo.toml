@@ -41,22 +41,22 @@ theme = 'ananke'
 
 # menu configuration
 [languages.en.menus]
-[[languages.en.menus.main]]
-  identifier = 'mission'
-  name = "Mission"
-  url = "/mission"
-  weight = 6
-[[languages.en.menus.main]]
-  identifier = 'posts'
-  name = "Posts"
-  title = 'Posts'
-  url = "/posts"
-  weight = 2
-[[languages.en.menus.main]]
-  identifier = 'services'
-  name = "Services"
-  url = "/services"
-  weight = 3
+# [[languages.en.menus.main]]
+#   identifier = 'mission'
+#   name = "Mission"
+#   url = "/mission"
+#   weight = 6
+# [[languages.en.menus.main]]
+#   identifier = 'posts'
+#   name = "Posts"
+#   title = 'Posts'
+#   url = "/posts"
+#   weight = 2
+# [[languages.en.menus.main]]
+#   identifier = 'services'
+#   name = "Services"
+#   url = "/services"
+#   weight = 3
 
 
 [pagination]

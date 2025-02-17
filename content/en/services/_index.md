@@ -7,6 +7,10 @@ theme_version = "2.8.2"
 type = 'cvn'
 layout = ''
 
+[menus.main]
+  name = 'services'
+  weight = 3
+
 [cascade]
   featured_image = "images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
   cover_dimming_class = "bg-black-10"

@@ -7,11 +7,15 @@ description = 'Thoughts from our Members'
 omit_header_text = false
 
 type = 'cvn'
-layout = 'list'
+layout = ''
 
 [cascade]
   featured_image = "/images/kc-welch-Rm1yvSRVTRE-unsplash.webp"
   cover_dimming_class = "bg-black-10"
+
+[menus.main]
+  name = 'posts'
+  weight = 3
 
 +++
 
