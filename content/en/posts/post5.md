@@ -5,4 +5,5 @@ title ='Our 5th post'
 summary = 'This is a summary of post5'
 +++
 
-# Post 5
+Running an errand for an elderly person involves helping them with tasks like <!--more--> grocery shopping or picking up prescriptions. It requires patience, attentiveness, and a kind heart. Ensuring their needs are met brings them comfort and eases their daily burden, fostering a sense of community and care.
+

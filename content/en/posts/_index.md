@@ -11,6 +11,7 @@ layout = ''
 
 [cascade]
   featured_image = "/images/kc-welch-Rm1yvSRVTRE-unsplash.webp"
+  featured_image_main = "/images/kc-welch-Rm1yvSRVTRE-unsplash-1.webp"
   cover_dimming_class = "bg-black-10"
 
 [menus.main]
@@ -19,4 +20,4 @@ layout = ''
 
 +++
 
-Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the "pagination" setting in the config file.
+Caring Valley **volunteers** build trust through compassion, consistency, active listening, and genuine care, forming meaningful bonds with those they support.

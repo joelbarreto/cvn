@@ -20,6 +20,9 @@ theme = 'ananke'
   show_reading_time = true
   omit_header_text = true
 
+[pagination]
+  pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+
 # Site configuration
 [site]
   baseurl = "https://caringvalley.org"
@@ -63,6 +66,5 @@ theme = 'ananke'
 #   weight = 3
 
 
-[pagination]
-  pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+
 
