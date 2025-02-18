@@ -14,7 +14,7 @@ layout = ''
   cover_dimming_class = "bg-black-10"
 
 [menus.main]
-  name = 'posts'
+  name = 'Posts'
   weight = 3
 
 +++

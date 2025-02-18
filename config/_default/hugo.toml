@@ -1,15 +1,8 @@
 
 theme = 'ananke'
 
-# Site configuration
-[site]
-  baseurl = "https://caringvalley.org"
-  title = ' Caring Valley Nonprofit'
-  summaryLength = 10
-  defaultContentLanguage = "en-US"
-  sectionPagesMenu = "main"
-  enableRobotsTXT = true
 
+# theme configuration
 [params]
   text_color = ""
   author = ""
@@ -27,7 +20,16 @@ theme = 'ananke'
   show_reading_time = true
   omit_header_text = true
 
+# Site configuration
+[site]
+  baseurl = "https://caringvalley.org"
+  title = ' Caring Valley Nonprofit'
+  summaryLength = 10
+  defaultContentLanguage = "en"
+  sectionPagesMenu = "main"
+  enableRobotsTXT = true
 
+# Language configuration
 [languages]
 [languages.en]
   disabled = false
@@ -37,10 +39,12 @@ theme = 'ananke'
   languageDirection = 'ltr' # for Right-To-Left languages
   contentDir = "content/en"
   weight = 1
-  title = "CVN"
+  title = "Caring Valley"
 
 # menu configuration
 [languages.en.menus]
+  # rest is defined in indivual page front matter
+
 # [[languages.en.menus.main]]
 #   identifier = 'mission'
 #   name = "Mission"

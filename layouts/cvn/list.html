@@ -1,7 +1,13 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+{{ if $featured_image }}
+{{ $featured_image_class := .Params.featured_image_class | default "cover bg-top" }}
+{{ $cover_dimming_class := .Params.cover_dimming_class | default "bg-black-80" }}
+<div class="bg-white-20">
+<article class="pa3 pa4-ns nested-copy-line-height cover bg-center" style="background-image: url('{{ $featured_image }}');">
+
+      <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
       {{- .Content -}}
     </section>
     <section class="flex-ns flex-wrap justify-around mt5">
@@ -13,4 +19,6 @@
     </section>
     {{- template "_internal/pagination.html" . -}}
   </article>
+</div>
+{{ end }}
 {{ end }}

@@ -6,9 +6,10 @@ theme_version = "2.8.2"
 
 type = 'cvn'
 layout = ''
+omit_header_text = false
 
 [menus.main]
-  name = 'services'
+  name = 'Services'
   weight = 3
 
 [cascade]

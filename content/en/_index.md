@@ -8,7 +8,8 @@ description = "Elevating Happiness for All"
 theme_version = "2.8.2"
 
 type = 'cvn'
-layout = 'single'
+layout = 'index'
+
 [cascade]
   featured_image = "/images/cedric-letsch-2qI1YHkZMTw-unsplash.webp"
   cover_dimming_class = "bg-black-20"
