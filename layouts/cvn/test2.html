@@ -1,0 +1,17 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $page := .}}
+  {{ $section := .Site.GetPage "section" .Section }}
+
+  <p>{{ .Site.Title }} → My Site Title</p>
+  <p>{{ .Page.Title }} → My Page Title</p>
+  <p>{{.Title}} -> .Title</p>
+  <p>{{ $.Title}} - {{ . }}</p>
+  <p>{{ .Site.Params }}</p>
+  <p>{{ .Kind }}</p>
+  <p>{{ .Pages }}</p>
+{{ end }}

@@ -9,6 +9,7 @@ omit_header_text = false
 type = 'cvn'
 layout = ''
 
+text_color = 'near-white'
 [cascade]
   featured_image = "/images/kc-welch-Rm1yvSRVTRE-unsplash.webp"
   featured_image_main = "/images/kc-welch-Rm1yvSRVTRE-unsplash-1.webp"

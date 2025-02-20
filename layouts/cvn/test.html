@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $page := .}}
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 cover bg-center" style="background-image: url('{{ .Params.featured_image_main }}');">
     <header class="mt4 w-100">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           {{/*
@@ -52,6 +52,9 @@
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
       {{- .Content -}}
+      {{.Site.Title}} -> My Site Title
+      {{.Page.Title}} -> My page title
+
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.Config.Services.Disqus.Shortname }}
@@ -66,5 +69,6 @@
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+
   </article>
 {{ end }}

@@ -1,9 +1,12 @@
 +++
 date = '2025-02-08T13:10:50-08:00'
-draft = true
+draft = false
 title = 'Founders Message'
 description = "How I came to think of starting Caring Valley"
 featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.jpg"
+
+type = 'cvn'
+layout = ''
 tags = ["founders"]
 +++
 

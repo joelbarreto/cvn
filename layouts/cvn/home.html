@@ -1,0 +1,15 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  {{ $page := .}}
+  {{ $section := .Site.GetPage "section" .Section }}
+  <div class="cover bg-bottom" style="background-image: url('{{ .Params.featured_image_main }}');">
+    <div class ="pv6 ph3 white  {{.Params.cover_dimming_class}}">
+    <section class=" cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+  </div>
+{{ end }}
