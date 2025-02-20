@@ -17,6 +17,7 @@ text_color = 'white'
   cover_dimming_class = 'bg-black-20'
 +++
 
-Caring Valley has just started its mission.
+In our fast-paced world, taking the time to care for one another is a powerful act. Our organization is committed to reaching out to the elderly and lonely, providing services that bring comfort, joy, and hope. We invite you to be a part of this journey, as we continue to build a community where everyone feels valued and loved.
 
-Follow our progress [here](/test).
+
+*Caring Valley has just started its mission. Follow our progress [here](/timeline).*

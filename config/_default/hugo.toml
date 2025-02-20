@@ -21,7 +21,7 @@ theme = 'ananke'
   omit_header_text = true
 
 [pagination]
-  pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+  pagerSize = 9 # this is set low for demonstrating with dummy content. Set to a higher number
 
 # Site configuration
 [site]

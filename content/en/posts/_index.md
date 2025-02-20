@@ -9,7 +9,7 @@ omit_header_text = false
 type = 'cvn'
 layout = ''
 
-text_color = 'near-white'
+text_color = ''
 [cascade]
   featured_image = "/images/kc-welch-Rm1yvSRVTRE-unsplash.webp"
   featured_image_main = "/images/kc-welch-Rm1yvSRVTRE-unsplash-1.webp"
@@ -17,8 +17,8 @@ text_color = 'near-white'
 
 [menus.main]
   name = 'Posts'
-  weight = 3
+  weight = 2
 
 +++
 
-Caring Valley **volunteers** build trust through compassion, consistency, active listening, and genuine care, forming meaningful bonds with those they support.
+Caring Valley **Volunteers** build trust through compassion, consistency, active listening, and genuine care, forming meaningful bonds with those they support.

@@ -18,7 +18,7 @@ layout = ''
 
 [menus.main]
   name = 'Mission'
-  weight = 3
+  weight = 1
 
 # end front matter
 +++

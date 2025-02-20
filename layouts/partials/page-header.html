@@ -1,5 +1,6 @@
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-<!-- <p class="black">{{ $.Kind }}</p> -->
+<!-- <p class="black">{{ $.Kind }}</p>
+<p>{{ .Page.Params.featured_image_main }}</p> -->
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image_class := .Params.featured_image_class | default "cover bg-top" }}
