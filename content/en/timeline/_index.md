@@ -21,12 +21,6 @@ featured_image_main = ""
 
 +++
 
-|Date|Event|
-|----|-----|
-|tt| web site|
-
-``{{ .Date \| dateFormat "01/01/2001" }}``
-
-Test Caring Valley has just started its mission. Follow our progress here. And here.
+## In Chronological Order
 
 

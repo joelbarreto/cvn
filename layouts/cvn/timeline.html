@@ -13,28 +13,14 @@
   <div  class="black">
   {{ end}}
   <article class="pa3 pa4-ns nested-copy-line-height">
-  {{ $section := .Site.GetPage "section" .Section }}
-
-  <p>.Site.Title  = {{ .Site.Title }}</p>
-  <p>.Page.Title = {{ .Page.Title }}</p>
-  <p>.Title = {{.Title}}</p>
-  <p>{{ $.Title}} - {{ . }}</p>
-  <p>.Kind = {{ .Kind }}</p>
-  <p>.Site.Pages = {{ .Site.Pages }}</p>
-  <!-- <p>{{  .Site.Params }}</p>
-  <ul>
-    {{ range $key, $value := .Site.Params.ananke.social}}
-      <li>{{ $key }}: {{ $value }}</li>
-    {{ end }} -->
-  </ul>
-  <h1>{{ .Title}}</h1>
-  <ul>
-      {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
-          <li>
-            <p><strong>{{ .Date | dateFormat "January 2, 2006" }}</strong> : <a href="{{ .Permalink }}">{{ .Title }}</a></p>
-            <p>{{ .Summary }}</p>
-          </li>
-      {{ end }}
-  </ul>
+    {{- .Content -}}
+    <ul>
+        {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
+            <li>
+              <p><strong>{{ .Date | dateFormat "January 2, 2006" }}</strong> : <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+              <p>{{ .Summary }}</p>
+            </li>
+        {{ end }}
+    </ul>
   </article>
   {{end}}
