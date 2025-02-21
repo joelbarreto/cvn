@@ -5,14 +5,15 @@ description = "Key Events in our History"
 theme_version = "2.8.2"
 
 type = 'cvn'
-layout = 'test2'
+layout = ''
 omit_header_text = false
 
 
 [cascade]
 featured_image = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
+# featured_image_main = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
 featured_image_main = ""
-cover_dimming_class = "bg-black-10"
+# cover_dimming_class = "bg-black-50"
 
 [menus.main]
   name = 'Timeline'

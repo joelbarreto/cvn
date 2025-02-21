@@ -1,12 +1,11 @@
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-<!-- <p class="black">{{ $.Kind }}</p>
-<p>{{ .Page.Params.featured_image_main }}</p> -->
+
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image_class := .Params.featured_image_class | default "cover bg-top" }}
   {{ $cover_dimming_class := .Params.cover_dimming_class | default "bg-black-60" }}
-  <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}');">
-    <div class="{{ $cover_dimming_class }}">
+  <header class="{{ $featured_image_class }}" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0)), url('{{ $featured_image }}');">
+    <!-- <div class="{{ $cover_dimming_class }}"> -->
       {{ partial "site-navigation.html" . }}
       <div class="tc-l pv5 ph3 ph4-ns">
         {{ if not .Params.omit_header_text }}
@@ -18,7 +17,7 @@
           {{ end }}
         {{ end }}
       </div>
-    </div>
+    <!-- </div> -->
   </header>
 {{ else }}
   <header>
