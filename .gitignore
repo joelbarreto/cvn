@@ -37,3 +37,6 @@ Desktop.ini
 
 # Hugo server files
 hugo_stats.json
+
+# JB temp ignores
+layouts/partials/func

@@ -1,7 +1,7 @@
 {{ define "header" }}
-   {{/* We can override any block in the baseof file be defining it in the template */}}
-  <!-- {{ partial "body-header.html" . }} -->
-  <div class="bg-dark-blue"   style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0))">{{ partial "site-navigation.html" . }}</div>
+  {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{/* partial "home-header.html" . */}}
+  <div class="bg-dark-blue" style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0))">{{ partial "site-navigation.html" . }}</div>
 {{ end }}
 
 {{ define "main" }}
@@ -9,7 +9,7 @@
   {{ if .Page.Params.featured_image_main }}
   <div class="cover bg-top white"
       style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)),
-                                url('{{ .Page.Params.featured_image_main }}') ">
+      url('{{ .Page.Params.featured_image_main }}') ">
   {{ else }}
   <div  class="black">
   {{ end}}
@@ -26,4 +26,7 @@
     </div>
 
   </article>
+  {{end}}
+  {{ define "footer"}}
+    <div class="bg-dark-blue" style="background-image: linear-gradient(to left , rgba(0,0,0,0), rgba(0,0,0,0.5))">{{ partialCached "page-footer.html" . }}</div>
   {{end}}
