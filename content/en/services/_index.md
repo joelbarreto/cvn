@@ -10,10 +10,10 @@ omit_header_text = false
 [pagination]
   pagerSize = 9
 
-# [cascade]
-#   featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
-#   featured_image_main = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
-#   cover_dimming_class = "bg-white-10"
+[cascade]
+  featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
+  featured_image_main = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
+  cover_dimming_class = "bg-white-10"
 
 [menus.main]
   name = 'Services'
