@@ -1,25 +1,25 @@
 {{ define "header" }}
   {{/* We can override any block in the baseof file be defining it in the template */}}
   <!-- {{ partial "page-header.html" . }} -->
-  {{ end }}
+{{ end }}
   
-  {{ define "main" }}
+{{ define "main" }}
   {{ $page := .}}
   {{ $section := .Site.GetPage "section" .Section }}
-  <div class="cover bg-bottom" style="background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.7)), url('{{ .Params.featured_image_main }}');">
+  <div class="cover bg-bottom" style="background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.7)), url('{{ trim .Params.featured_image_main "/" | absURL }}');">
     <div class="gold" style="background-image: linear-gradient(to bottom,rgba(0,0,0,.7),rgba(0,0,0,0));">{{ partial "body-header.html" . }}</div>
     <div class ="pv6 ph3 white">
       <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
         {{- .Content -}}
         <!-- <a href="/timeline ">Follow our progress here</a> -->
-        <button class="br3 ph2 pv1 hover-gold bg-white-20 white" onclick="document.location='{{.Params.button_url}}'">{{.Params.button_text}}</button>
+        <button class="br3 ph2 pv1 hover-gold bg-white-20 white" onclick="document.location='{{.Params.button_url| absURL}}'">{{.Params.button_text}}</button>
         <!-- <a href='{{.Params.button_url}}'>{{.Params.buttin_text}}</a> -->
     </section>
   </div>
   <div class="">{{ partialCached "body-footer.html" . }}</div>
-  {{ end }}
-  
-  {{ define "footer" }}
+{{ end }}
+
+{{ define "footer" }}
   {{/* We can override any block in the baseof file be defining it in the template */}}
   <!-- <div class="bg-red">{{ partialCached "site-footer.html" . }}</div> -->
 {{ end }}
