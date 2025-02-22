@@ -10,8 +10,8 @@ omit_header_text =   true
 show_reading_time = false
 
 # featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash.jpg"
-featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
-# featured_image = ''
+# featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
+featured_image = ''
 cover_dimming_class = "bg-black-20"
 
 type = 'cvn'
