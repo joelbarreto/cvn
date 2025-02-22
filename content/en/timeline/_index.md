@@ -10,7 +10,7 @@ omit_header_text = false
 
 
 [cascade]
-featured_image = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
+# featured_image = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
 # featured_image_main = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
 featured_image_main = ""
 # cover_dimming_class = "bg-black-50"
