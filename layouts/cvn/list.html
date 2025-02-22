@@ -1,7 +1,8 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
+{{ $featured_image_main := partial "func/GetFeaturedImage.html" . }}
 
-<div class="bg-white-20 cover bg-bottom" style="background-image: url('{{ .Page.Params.featured_image_main }}')">
+<div class="bg-white-20 cover bg-bottom" style="background-image: url('{{ $featured_image_main }}')">
 <article class="pa3 pa4-ns nested-copy-line-height {{ .Params.cover_dimming_class }}">
 
       <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy bg-white {{ $.Param "text_color" | default "mid-gray" }}">
