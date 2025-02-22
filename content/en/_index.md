@@ -15,7 +15,7 @@ button_url = '/timeline'
 
 text_color = 'white'
 [cascade]
-  # featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+  featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   featured_image_main = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   cover_dimming_class = 'bg-black-20'
 +++

@@ -37,3 +37,6 @@ Desktop.ini
 
 # Hugo server files
 hugo_stats.json
+
+# Hugo themes
+themes/ananke/
