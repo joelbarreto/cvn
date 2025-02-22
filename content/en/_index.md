@@ -11,7 +11,7 @@ type = 'cvn'
 layout = ''
 
 button_text = 'Follow our Progress here'
-button_url = '/timeline'
+button_url = 'quotes/consluting'
 
 text_color = 'white'
 menu_text_color = 'gold'
