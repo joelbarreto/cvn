@@ -12,7 +12,7 @@
       <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
         {{- .Content -}}
         <!-- <a href="/timeline ">Follow our progress here</a> -->
-        <button class="br3 ph2 pv1 hover-gold bg-white-20 white" onclick="document.location='{{.Params.button_url| absURL}}'">{{.Params.button_text}}</button>
+        <button class="br3 ph2 pv1 hover-gold bg-white-20 white" onclick="document.location='{{trim .Params.button_url "/" | absURL}}'">{{.Params.button_text}}</button>
         <!-- <a href='{{.Params.button_url}}'>{{.Params.buttin_text}}</a> -->
     </section>
   </div>
