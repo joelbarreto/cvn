@@ -10,14 +10,14 @@ omit_header_text = false
 
 [cascade]
 # featured_image = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
-#featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash-1.webp"
+featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash-1.webp"
 featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.webp"
-#featured_image_main = ""
+# featured_image_main = ""
 # cover_dimming_class = "bg-black-50"
 
 [menus.main]
   name = 'Timeline'
-  weight = 4
+  weight = 1
 
 +++
 

@@ -17,7 +17,7 @@ omit_header_text = false
 
 [menus.main]
   name = 'Services'
-  weight = 3
+  weight = 2
 +++
 
 ## Reaching Out: The Heartfelt Services of Our Community Organization
