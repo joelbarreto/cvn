@@ -11,7 +11,7 @@ show_reading_time = false
 
 # featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash.jpg"
 # featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
-#featured_image = ""
+# featured_image = ""
 #featured_image_main = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
 
 
