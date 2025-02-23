@@ -7,7 +7,7 @@
   {{ $page := .}}
   {{ $section := .Site.GetPage "section" .Section }}
   <div class="cover bg-bottom" style="background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.7)), url('{{ trim .Params.featured_image_main "/" | absURL }}');">
-    <div class="gold" style="background-image: linear-gradient(to bottom,rgba(0,0,0,.7),rgba(0,0,0,0));">{{ partial "home-header.html" . }}</div>
+    <div class="gold" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.7),rgba(0,0,0,0));">{{ partial "home-header.html" . }}</div>
     <div class ="pv6 ph3 white">
       <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
         {{- .Content -}}
