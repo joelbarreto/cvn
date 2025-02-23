@@ -11,21 +11,24 @@
       style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)),
       url('{{ .Page.Params.featured_image_main }}') ">
   {{ else }}
-  <div  class="black">
+  <div  class="navy bg-lightest-blue">
   {{ end}}
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    {{- .Content -}}
-    <div>
-      <ul>
-      {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
-        <li>
-          <strong>{{ .Date | dateFormat "January 2, 2006" }}</strong> [<a href="{{ .Permalink }}">{{ .Title }}</a>]<br>{{ .Summary }}
-        </li>
+    <article class="pa3 pa4-ns nested-copy-line-height dark-blue f2 ">
+      {{- .Content -}}
+      <div>
+        <ul class="list pl0 f4">
+        {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
+          <li class="mb4 dark-blue">
+            <a class="link blue hover-orange" href="{{ .Permalink }}">
+            <div class="pa0 f3">{{ .Date | dateFormat "January 2, 2006" }}</div>
+            <div class="">{{ .Title }}</div><hr>
+            {{ .Summary }}</a>
+          </li>
         {{ end }}
-      </ul>
-    </div>
-
-  </article>
+        </ul>
+      </div>
+    </article>
+  </div>
   {{end}}
   {{ define "footer"}}
     <div class="bg-dark-blue" style="background-image: linear-gradient(to left , rgba(0,0,0,0), rgba(0,0,0,0.5))">{{ partialCached "page-footer.html" . }}</div>

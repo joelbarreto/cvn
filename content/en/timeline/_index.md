@@ -21,6 +21,6 @@ featured_image_main = ""
 
 +++
 
-## In Chronological Order
+In Chronological Order
 
 
