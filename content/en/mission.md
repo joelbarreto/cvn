@@ -11,8 +11,8 @@ show_reading_time = false
 
 # featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash.jpg"
 # featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
-featured_image = ''
-cover_dimming_class = "bg-black-20"
+featured_image = ""
+featured_image_main = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
 
 type = 'cvn'
 layout = ''
@@ -24,4 +24,4 @@ layout = ''
 # end front matter
 +++
 
-> We aim to help all people
+> Our mission is to elevate happiness for all by fostering a supportive community that addresses and alleviates loneliness, with a special focus on helping the elderly. We believe that every individual deserves to lead a joyful, fulfilling life, and we are dedicated to creating innovative programs and resources that promote mental, emotional, and physical well-being. Through compassion, connection, and empowerment, we strive to make happiness a reality for those who need it most, inspiring a ripple effect of positivity and resilience in communities worldwide.

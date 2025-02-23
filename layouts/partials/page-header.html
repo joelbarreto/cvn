@@ -2,8 +2,8 @@
 
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-  {{ $featured_image_class := .Params.featured_image_class | default "cover bg-top" }}
-  {{ $cover_dimming_class := .Params.cover_dimming_class | default "bg-black-60" }}
+  {{ $featured_image_class := .Params.featured_image_class | default "cover bg-center" }}
+  <!-- {{ $cover_dimming_class := .Params.cover_dimming_class | default "bg-black-60" }} -->
   <header class="{{ $featured_image_class }}" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0,0,0,0)), url('{{ $featured_image }}');">
     <!-- <div class="{{ $cover_dimming_class }}"> -->
       {{ partial "site-navigation.html" . }}
