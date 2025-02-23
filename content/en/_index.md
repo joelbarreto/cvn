@@ -19,8 +19,11 @@ menu_text_color = 'gold'
 [cascade]
   #featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   #featured_image_main = "images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
-  featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
-  featured_image_main = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
+  #featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
+  #featured_image_main = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
+  featured_image = "/images/aerial sketch of Mountain View, California.webp"
+  featured_image_main = "/images/aerial sketch of Mountain View, California-1.webp"
+
 +++
 
 In our fast-paced world, taking the time to care for one another is a powerful act. Our organization is committed to reaching out to the elderly and lonely, providing services that bring comfort, joy, and hope. We invite you to be a part of this journey, as we continue to build a community where everyone feels valued and loved.
