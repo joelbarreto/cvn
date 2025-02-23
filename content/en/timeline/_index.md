@@ -14,7 +14,7 @@ omit_header_text = true
 # featured_image_main = "/images/max-pruvost-OJ02cQHePds-unsplash-1.webp"
 # featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
 # featured_image_main = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
-featured_image_main = ""
+featured_image_main = "/images/watercolor of a valley in only light blue.webp"
 # cover_dimming_class = "bg-black-50"
 
 [menus.main]

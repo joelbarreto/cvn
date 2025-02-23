@@ -14,21 +14,16 @@
   <div  class="navy bg-lightest-blue">
   {{ end}}
     <article class="pa3 pa4-ns nested-copy-line-height ">
-      <div class="dark-blue f3 " > {{- .Page.Params.description -}}</div>
+      <div class="dark-blue f2 " > {{- .Page.Params.description -}}</div>
       <div class="f3">{{- .Content -}}</div>
         <ul class="list pl0 f4">
         {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
-          <hr>
-          <li class="dark-blue flex flex-wrap justify-around">
-            <div class="w-25 pr4">
-              <a class="link blue hover-orange" href="{{ .Permalink }}">
-                <!-- <div class=""> -->
-                  <div class="pa0 b">{{ .Date | dateFormat "January 2, 2006" }}</div>
-                  <div class="">{{ .Title }}</div>
-                <!-- </div> -->
-              </a>
-              </div>
-              <div class="w-75 black">{{ .Summary }}</div>
+          <li class="mb4 dark-blue">
+            <a class="link blue hover-orange" href="{{ .Permalink }}">
+              <div class="pa0 f3">{{ .Date | dateFormat "January 2, 2006" }}</div>
+              <div class="">{{ .Title }}</div>
+              <div class="black">{{ .Summary }}</div>
+            </a>
           </li>
         {{ end }}
         </ul>
