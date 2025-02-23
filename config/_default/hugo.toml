@@ -19,14 +19,16 @@ theme = 'ananke'
   body_classes = "montserrat bg-near-white"
   show_reading_time = true
   omit_header_text = true
+  baseURL = ""
+  relativeURLS = true
+  canonifyURLs = true
 
 [pagination]
   pagerSize = 9 # this is set low for demonstrating with dummy content. Set to a higher number
 
 # Site configuration
 [site]
-  baseURL = "https://joelbarreto.github.io/cvn"
-  relativeURLS = true
+
   title = ' Caring Valley Nonprofit'
   summaryLength = 10
   defaultContentLanguage = "en"
