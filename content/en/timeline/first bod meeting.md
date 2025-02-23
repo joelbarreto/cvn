@@ -7,9 +7,14 @@ type = 'cvn'
 omit_header_text = true
 +++
 
-First meeting of the Board was held at Newark, CA.<!--more--> The founding board consisted of three memebers
+The board of directors held their first meeting at Newark, CA.<!--more--> The founding board consisted of three directors
 - Joel Barreto
 - Sowmya Krishnan
 - Zaheer Allam
 
 The meeting was held in the main conference room at RITSNET's offices.
+
+At this meeting, the officers of the nonprofit were elected.
+- Sowmya was elected as **Chairperson and President**.
+- Zaheer was elected as **Vice-President** and 
+- Joel was elected as **Secretary and Treasurer**.
