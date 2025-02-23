@@ -25,7 +25,7 @@ theme = 'ananke'
 
 # Site configuration
 [site]
-  baseurl = "https://caringvalley.org"
+  baseurl = ""
   title = ' Caring Valley Nonprofit'
   summaryLength = 10
   defaultContentLanguage = "en"
