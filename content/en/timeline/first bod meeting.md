@@ -7,9 +7,9 @@ type = 'cvn'
 omit_header_text = true
 +++
 
-First meeting of the Board was held at Newark, CA. The founding board consisted of three memebers
+First meeting of the Board was held at Newark, CA.<!--more--> The founding board consisted of three memebers
 - Joel Barreto
-- Sowmya Krishan
+- Sowmya Krishnan
 - Zaheer Allam
 
 The meeting was held in the main conference room at RITSNET's offices.
