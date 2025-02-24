@@ -8,6 +8,8 @@ theme_version = "2.8.2"
 type = 'cvn'
 layout = ''
 omit_header_text = true
+featured_image_body = "/images/San-Francisco-South-Bay-pencil-sketch-1.webp"
+
 weight = 1
 
 +++

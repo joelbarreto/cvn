@@ -2,7 +2,6 @@
 {{ define "main" }}
 <!-- {{ $featured_image_body := partial "func/GetFeaturedImage.html" . }} -->
 {{ $featured_image_body = trim .Params.featured_image_body "/" | absURL }}
-
 <div class="bg-white-20 cover bg-bottom" style="background-image: url('{{ $featured_image_body }}')">
 <article class="pa3 pa4-ns nested-copy-line-height {{ .Params.cover_dimming_class }}">
 

@@ -15,8 +15,10 @@
           */}}
           {{ .CurrentSection.Title }}
         </aside>
-        {{ $img := trim .Params.featured_image "/" | relURL }}
+      {{if $img := .Params.featured_image_body}}
+        {{ $img := trim $img "/" | relURL }}
         <img src="{{$img}}" class="w-30" style="float:right;">
+      {{end}}
       {{- partialCached "social/share.html" . . -}}
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
@@ -54,7 +56,6 @@
     </header>
     <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
          style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));">
-      <!-- {{ $img }} -->
       <div class="ma3">{{- .Content -}}</div>
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">

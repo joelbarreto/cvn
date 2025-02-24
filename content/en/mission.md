@@ -12,7 +12,8 @@ show_reading_time = false
 # featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash.jpg"
 # featured_image_body = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
 # featured_image_body = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
-featured_image = "/images/San-Francisco-South-Bay-pencil-sketch.webp"
+featured_image = "/images/pencil-sketch-of-Santa-Clara-Valley-1.webp"
+featured_image_body = "/images/pencil-sketch-of-Santa-Clara-Valley-3.webp"
 
 
 type = 'cvn'
