@@ -1,6 +1,6 @@
 {{ define "main" }}
   <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}" cover bg-center style="background-image: url('{{ .Params.featured_image_main }}');" >
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}" cover bg-center style="background-image: url('{{ .Params.featured_image_body }}');" >
       <p>{{ i18n "taxonomyPageList" . }}</p>
     </div>
   </article>

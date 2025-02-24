@@ -12,7 +12,7 @@ omit_header_text = false
 
 [cascade]
   featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
-  featured_image_main = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
+  featured_image_body = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
   cover_dimming_class = "bg-white-10"
 
 [menus.main]

@@ -7,7 +7,7 @@ theme_version = "2.8.2"
 
 type = 'cvn'
 layout = ''
-omit_header_text = false
+omit_header_text = true
 weight = 1
 
 +++

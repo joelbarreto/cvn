@@ -55,7 +55,7 @@
     <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
          style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.4));">
       <!-- {{ $img }} -->
-      {{- .Content -}}
+      <div class="ma3">{{- .Content -}}</div>
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.Config.Services.Disqus.Shortname }}

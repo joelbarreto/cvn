@@ -3,11 +3,12 @@ draft = false
 date = '2025-02-18 10:56:07'
 title = 'Services in 2025'
 description = "Local community support"
+omit_header_text = false
 theme_version = "2.8.2"
 
 type = 'cvn'
 layout = ''
-omit_header_text = false
+
 +++
 
 ### Reaching Out: The Heartfelt Services of Our Community Organization 

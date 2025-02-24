@@ -3,6 +3,8 @@ date = '2025-02-17 00:53:18'
 draft = true
 title ='Errands for Eve'
 summary = 'This is a summary of post5'
+omit_header_text = true
+
 type = 'cvn'
 +++
 
