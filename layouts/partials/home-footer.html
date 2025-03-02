@@ -1,9 +1,9 @@
 <footer class="bottom-0 w-100 pa3 washed-blue" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-gold no-underline washed-blue dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
+  <a class="w-100 f4 fw4 hover-gold no-underline washed-blue dn dib-ns pv2 ph3" href="{{ .Site.Home.Permalink }}" >
     &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
   </a>
-  <span class="tc f5">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</span>
+  <span class="w-100 tr f5">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</span>
     <div>{{ partialCached "social/follow.html" . }}</div>
   </div>
 </footer>
