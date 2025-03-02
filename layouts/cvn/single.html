@@ -7,7 +7,7 @@
   {{ $page := .}}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
+    <header class="mt4 w-100 cf">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
         {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
@@ -17,7 +17,7 @@
         </aside>
       {{if $img := .Params.featured_image_body}}
         {{ $img := trim $img "/" | relURL }}
-        <img src="{{$img}}" class="w-30" style="float:right;">
+        <img src="{{$img}}" class="db-ns dn w-30 fr">
       {{end}}
       {{- partialCached "social/share.html" . . -}}
       <h1 class="f1 athelas mt3 mb1">
@@ -55,7 +55,7 @@
       {{ end }}
     </header>
     <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
-         style="background-image: none">
+         style="background-image: none;">
       <div class="ma3">{{- .Content -}}</div>
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
