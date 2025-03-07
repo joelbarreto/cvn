@@ -1,6 +1,6 @@
 +++
 date = '2025-02-15'
-draft = false
+draft = true
 title ='Federal Tax Exemption'
 summary = 'IRS 501(c)(3) status approved'
 type = 'cvn'

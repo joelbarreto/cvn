@@ -19,5 +19,5 @@ Our organization thrives on the dedication of our volunteers and the generosity 
 
 Join us in our mission to make a difference. Whether through volunteering, donating, or simply spreading the word, your support can transform lives. Together, we can ensure that no one in our community feels forgotten or alone.
 
-### Conclusion
+### We invite you
 In our fast-paced world, taking the time to care for one another is a powerful act. Our organization is committed to reaching out to the elderly and lonely, providing services that bring comfort, joy, and hope. We invite you to be a part of this journey, as we continue to build a community where everyone feels valued and loved.
