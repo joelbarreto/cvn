@@ -1,7 +1,18 @@
 
 
 theme = 'ananke'
+# Site configuration
+[site]
+  baseURL = ""
+  title = 'Caring Valley Nonprofit'
+  summaryLength = 10
+  defaultContentLanguage = "en"
+  sectionPagesMenu = "main"
+  enableRobotsTXT = true
 
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+# render inline html in MD files
 [markup.goldmark.renderer]
   unsafe = true
 
@@ -26,14 +37,7 @@ theme = 'ananke'
 [pagination]
   pagerSize = 9 # this is set low for demonstrating with dummy content. Set to a higher number
 
-# Site configuration
-[site]
-  baseURL = ""
-  title = ' Caring Valley Nonprofit'
-  summaryLength = 10
-  defaultContentLanguage = "en"
-  sectionPagesMenu = "main"
-  enableRobotsTXT = true
+
 
 # Language configuration
 [languages]

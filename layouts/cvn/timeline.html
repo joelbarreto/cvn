@@ -13,8 +13,8 @@
   {{ else }}
   <div  class="navy bg-lightest-blue">
   {{ end}}
-    <article class="pa3 pa4-ns nested-copy-line-height ">
-      <div class="dark-blue f3 " > {{- .Page.Params.description -}}</div>
+    <article class="pa3 pa4-ns nested-copy-line-height bg-washed-blue-gradient" >
+      <div class="dark-blue f3"> {{- .Page.Params.description -}}</div>
       <div class="f4">{{- .Content -}}</div>
         <ul class="list pl0 f4">
         {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}

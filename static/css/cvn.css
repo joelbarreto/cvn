@@ -1,0 +1,10 @@
+/*
+    taking inspiration from tachyons
+*/
+
+.bg-washed-blue-gradient {
+    /*dark-blue, washed-blue, lightest-blue*/
+    /* background-image: linear-gradient(to bottom,#00449e, #96ccff,#cdecff,#96ccff,#00449e); */
+    /* background-image: linear-gradient(to bottom, #96ccff80,#cdecff80,#96ccff80,#00449e80); */
+    background-image: linear-gradient(to bottom, #96ccff33,#00459e65);
+}
