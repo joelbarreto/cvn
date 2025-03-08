@@ -2,7 +2,7 @@
 # begin front matter
 
 date = '2025-02-08T14:38:34-08:00'
-draft = false
+draft = true
 title = 'Mission Statement'
 author = 'CVN Board of Directors'
 # description = 'To provide relief to the distressed'
