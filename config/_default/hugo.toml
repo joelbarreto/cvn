@@ -1,6 +1,9 @@
 
+
 theme = 'ananke'
 
+[markup.goldmark.renderer]
+  unsafe = true
 
 # theme configuration
 [params]
