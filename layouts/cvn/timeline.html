@@ -20,12 +20,12 @@
         {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
           <hr>
           <a class="link" href="{{ .Permalink }}">
-          <li class="dark-blue hover-green flex-ns justify-left">
-            <div class="w-25-l w-100">
-              <div class="pa0 b">{{ .Date | dateFormat "January 2, 2006" }}</div>
-              <div class="">{{ .Title }}</div>
-            </div>
-            <div class="w-100 black">{{ .Summary }}</div>
+            <li class="dark-blue shrink-right flex-ns justify-left">
+              <div class="w-25-l w-100">
+                <div class="b">{{ .Date | dateFormat "January 2, 2006" }}</div>
+                <div class="">{{ .Title }}</div>
+              </div>
+              <div class="w-100 black">{{ .Summary }}</div>
             </li>
           </a>
         {{ end }}
