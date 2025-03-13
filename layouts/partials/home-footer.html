@@ -1,10 +1,10 @@
 <footer class="bottom-0 w-100 pa3 washed-blue" role="contentinfo">
   <div class="flex justify-between">
-  <a class="w-100 tl f4 fw4 hover-gold no-underline washed-blue dn dib-ns pl3 pv2" href="{{ .Site.Home.Permalink }}" >
-    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
-  <span class="w-100 tc f5 dn dib-l">A California Public Benefit<br>Corporation</span>
-  <span class="w-100 tr f5 dib-ns">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</span>
+    <a class="w-100 tl f4 fw4 hover-gold no-underline washed-blue dn dib-ns pl3 pv2" href="{{ .Site.Home.Permalink }}" >
+      &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+    </a>
+    <span class="w-100 tc f5 dn dib-l">A California Public Benefit<br>Corporation</span>
+    <span class="w-100 tr f5 dib-ns">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</span>
     <div>{{ partialCached "social/follow.html" . }}</div>
   </div>
 </footer>
