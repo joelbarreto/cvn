@@ -1,4 +1,4 @@
--9
+
 /*
     taking inspiration from tachyons
 */
@@ -22,8 +22,8 @@
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
     transition: -webkit-transform .30s ease-in;
-    transition: transform ..30s ease-in;
-    transition: transform ..30s ease-in, -webkit-transform ..30s ease-in;
+    transition: transform .30s ease-in;
+    transition: transform .30s ease-in, -webkit-transform .30s ease-in;
 }
 
 .shrink-right:hover,

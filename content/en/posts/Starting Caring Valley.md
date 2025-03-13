@@ -3,12 +3,13 @@ date = '2025-03-07 17:00:35'
 draft = false
 title = "Starting Caring Valley"
 description = "How I came to think of starting Caring Valley"
-featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.jpg"
+featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
 
 type = 'cvn'
 layout = ''
 tags = ["founders"]
 +++
+
 For many years, I've been pondering ways to help everyone lead happier lives. Since happiness is a mental state, the answer had to be be that happy people ***either*** did not have worries ***or***, deeply believed that they did not need to worry.<!--more-->
 
 If they didn't have worries, then it had to mean that all their human necessities were taken care of.
