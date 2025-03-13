@@ -1,11 +1,13 @@
--9/*
+-9
+/*
     taking inspiration from tachyons
 */
 
 .bg-dark-blue-gradient {
     /*dark-blue, washed-blue, lightest-blue*/
-    background-image: linear-gradient(45deg, #96ccff33,#00459e65);
+    background-image: linear-gradient(45deg, #96ccff33, #00459e65);
 }
+
 .bg-washed-blue-gradient {
     /*dark-blue, washed-blue, lightest-blue*/
     /* background-image: linear-gradient(to bottom,#00449e, #96ccff,#cdecff,#96ccff,#00449e); */
@@ -13,16 +15,24 @@
     background-image: linear-gradient(45deg, #96ccff6b, #cdedffd2, #96ccff67);
 }
 
-
 .shrink-right {
     -moz-osx-font-smoothing: grayscale;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform: translateX( 0% );
-    transform: translateX( 0% );
-    transition: -webkit-transform .25s ease-in ;
-    transition: transform .25s ease-in ;
-    transition: transform .25s ease-in , -webkit-transform .25s ease-in ;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    transition: -webkit-transform .30s ease-in;
+    transition: transform ..30s ease-in;
+    transition: transform ..30s ease-in, -webkit-transform ..30s ease-in;
 }
-.shrink-right:hover, .shrink-right:focus { -webkit-transform: translateX( 1% ); transform: translateX( 1% ); }
-.shrink-right:active { -webkit-transform: translateX( 2% ); transform: translateX( 2% ); }
+
+.shrink-right:hover,
+.shrink-right:focus {
+    -webkit-transform: translateX(1%);
+    transform: translateX(1%);
+}
+
+.shrink-right:active {
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%);
+}

@@ -1,5 +1,6 @@
 {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-{{ if $featured_image }}
+<div class="bb b--gold bw2">
+  {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image_class := site.Params.featured_image_class | default "cover bg-top" }}
   <header class="{{ $featured_image_class }}" style="background-image: url('{{ $featured_image }}');">
@@ -11,14 +12,14 @@
           {{ .Title | default .Site.Title }}
         </h1>
         {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            {{ . }}
-          </h2>
+        <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
+          {{ . }}
+        </h2>
         {{ end }}
       </div>
     </div>
   </header>
-{{ else }}
+  {{ else }}
   <header>
     <div class="pb3-m pb6-l {{ .Site.Params.background_color_class | default "bg-black" }}">
       {{ partial "site-navigation.html" . }}
@@ -27,11 +28,12 @@
           {{ .Title | default .Site.Title }}
         </h1>
         {{ with .Params.description }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-            {{ . }}
-          </h2>
+        <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+          {{ . }}
+        </h2>
         {{ end }}
       </div>
     </div>
   </header>
-{{ end }}
+  {{ end }}
+</div>
