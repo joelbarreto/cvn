@@ -3,7 +3,8 @@ date = '2025-02-08T13:10:50-08:00'
 draft = false
 title = "Founder's Message"
 description = "We have a right to happiness"
-featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
+featured_image_body = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
 
 type = 'cvn'
 layout = ''

@@ -2,8 +2,10 @@
 date = '2025-03-07 17:00:35'
 draft = false
 title = "Starting Caring Valley"
-description = "How I came to think of starting Caring Valley"
-featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+description = "What motivated me to start Caring Valley"
+# featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
+featured_image_body = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
 
 type = 'cvn'
 layout = ''
