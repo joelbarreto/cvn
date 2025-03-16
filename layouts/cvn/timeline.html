@@ -19,7 +19,7 @@
         <ul class="list pl0 f4">
         {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
           <hr>
-          <a class="link" href="{{ .Permalink }}">
+          <a class="link" href="{{ .RelPermalink }}">
             <li class="dark-blue shrink-right flex-ns justify-left">
               <div class="w-25-l w-100">
                 <div class="b">{{ .Date | dateFormat "January 2, 2006" }}</div>
