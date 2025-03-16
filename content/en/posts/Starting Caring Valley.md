@@ -5,7 +5,7 @@ title = "Starting Caring Valley"
 description = "What motivated me to start Caring Valley"
 # featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
 featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
-featured_image_body = "/images/datingscout-ZVIYZ3J7x7I-unsplash.webp"
+featured_image_body = "/images/calaveras.webp"
 
 type = 'cvn'
 layout = ''
