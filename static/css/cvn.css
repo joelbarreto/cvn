@@ -3,16 +3,86 @@
     taking inspiration from tachyons
 */
 
+:root {
+    --black: #000000;
+    --near-black: #111111;
+
+    --dark-gray: #333333;
+    --mid-gray: #555555;
+    --gray: #777777;
+
+    --silver: #999999;
+    --light-silver: #AAAAAA;
+
+    --moon-gray: #CCCCCC;
+    --light-gray: #EEEEEE;
+
+    --near-white: #F4F4F4;
+    --white: #FFFFFF;
+
+    --dark-red: #E7040F;
+    --red: #FF4136;
+    --light-red: #FF725C;
+    --washed-red: #FFDFDF;
+
+    --orange: #FF6300;
+
+    --gold: #FFB700;
+    --yellow: #FFD700;
+    --light-yellow: #FBF1A9;
+    --washed-yellow: #FFFCEB;
+
+    --purple: #5E2CA5;
+    --light-purple: #A463F2;
+
+    --dark-pink: #D5008F;
+    --hot-pink: #FF41B4;
+    --pink: #FF80CC;
+    --light-pink: #FFA3D7;
+
+    --dark-green: #137752;
+    --green: #19A974;
+    --light-green: #9EEBCF;
+    --washed-green: #E8FDF5;
+    
+    --navy: #001B44;
+    --dark-blue: #00449E;
+    --blue: #357EDD;
+    --light-blue: #96CCFF;
+    --lightest-blue: #CDECFF;
+    --washed-blue: #F6FFFE;
+
+   
+   
+   
+  }
+
 .bg-dark-blue-gradient {
     /*dark-blue, washed-blue, lightest-blue*/
     background-image: linear-gradient(45deg, #96ccff33, #00459e65);
 }
 
 .bg-washed-blue-gradient {
-    /*dark-blue, washed-blue, lightest-blue*/
+    /*dark-blue, washed-blue, lightest-blue with opacity on all 3 */
     /* background-image: linear-gradient(to bottom,#00449e, #96ccff,#cdecff,#96ccff,#00449e); */
     /* background-image: linear-gradient(to bottom, #96ccff80,#,#96ccff80,#00449e80); */
     background-image: linear-gradient(45deg, #96ccff6b, #cdedffd2, #96ccff67);
+}
+
+.bg-washed-green-gradient {
+    /* dark-green, washed-green, light-green with opacity 6b,d2,67 respectively */
+    /* background-image: linear-gradient(45deg,var(--dark-green),var(--washed-green),var(--light-green)); */
+    background-image: linear-gradient(45deg,#1377526b,#E8FDF5d2,#9EEBCF67);
+}
+
+.bg-washed-red-gradient {
+    /* dark-red, washed-red, light-red with opacity 6b,d2,67 respectively */
+    background-image: linear-gradient(45deg,#E7040F6b,#FFDFDFd2,#FF725C67);
+}
+
+.bg-washed-yellow-gradient {
+    /* yellow, washed-yellow, light-yellow with opacity 6b, d2, 67 respectively */
+    background-image: linear-gradient(45deg,#FFD7006b,#FFFCEBd2,#FBF1A967);
 }
 
 .shrink-right {

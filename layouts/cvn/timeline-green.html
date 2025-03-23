@@ -1,31 +1,31 @@
 {{ define "header" }}
   {{/* We can override any block in the baseof file be defining it in the template */}}
   {{/* partial "home-header.html" . */}}
-  <div class="bb bw2 b--white bg-yellow" style="background-image: linear-gradient(to left , rgba(0,0,0,.7), rgba(0,0,0,.5))">{{ partial "site-navigation.html" . }}</div>
+  <div class="bb bw2 b--white bg-dark-green" style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0))">{{ partial "site-navigation.html" . }}</div>
 {{ end }}
 
 {{ define "main" }}
 
   {{ if .Page.Params.featured_image_body }}
-  <div class="cover bg-top bg-washed-yellow white"
+  <div class="cover bg-top bg-washed-green white"
       style="background-image: linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0.6)),
       url('{{ .Page.Params.featured_image_body }}') ">
   {{ else }}
-  <div  class="near-black bg-washed-yellow">
+  <div  class="navy bg-washed-green">
   {{ end}}
-    <article class="vh-100 pa3 pa4-ns nested-copy-line-height bg-washed-yellow-gradient" >
-      <div class="f3"> {{- .Page.Params.description -}}</div>
+    <article class="vh-100 pa3 pa4-ns nested-copy-line-height bg-washed-green-gradient" >
+      <div class="dark-green f3"> {{- .Page.Params.description -}}</div>
       <div class="f4">{{- .Content -}}</div>
         <ul class="list pl0 f4">
         {{ range where .Site.RegularPages.ByDate "Section" "==" "timeline" }}
           <hr>
           <a class="link" href="{{ .RelPermalink }}">
-            <li class="mid-gray shrink-right flex-ns justify-left">
+            <li class="dark-green shrink-right flex-ns justify-left">
               <div class="w-25-l w-100">
                 <div class="b">{{ .Date | dateFormat "January 2, 2006" }}</div>
                 <div class="">{{ .Title }}</div>
               </div>
-              <div class="w-100 mid-gray">{{ .Summary }}</div>
+              <div class="w-100 black">{{ .Summary }}</div>
             </li>
           </a>
         {{ end }}
@@ -35,5 +35,5 @@
   </div>
   {{end}}
   {{ define "footer"}}
-    <div class="bg-yellow" style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0.7))">{{ partialCached "page-footer.html" . }}</div>
+    <div class="bg-dark-green" style="background-image: linear-gradient(to left , rgba(0,0,0,0), rgba(0,0,0,0.5))">{{ partialCached "page-footer.html" . }}</div>
   {{end}}
