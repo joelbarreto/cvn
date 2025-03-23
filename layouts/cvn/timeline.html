@@ -1,7 +1,7 @@
 {{ define "header" }}
   {{/* We can override any block in the baseof file be defining it in the template */}}
   {{/* partial "home-header.html" . */}}
-  <div class="bb bw2 b--white bg-yellow" style="background-image: linear-gradient(to left , rgba(0,0,0,.7), rgba(0,0,0,.5))">{{ partial "site-navigation.html" . }}</div>
+  <div class="bb bw2 b--white bg-purple" style="background-image: linear-gradient(to left , rgba(0,0,0,.7), rgba(0,0,0,.5))">{{ partial "site-navigation.html" . }}</div>
 {{ end }}
 
 {{ define "main" }}
@@ -10,9 +10,9 @@
       style="background-image: linear-gradient(45deg, rgba(0,0,0,0), rgba(0,0,0,0.6)),
       url('{{ .Page.Params.featured_image_body }}') ">
   {{ else }}
-  <div  class="near-black bg-washed-yellow">
+  <div  class="near-black">
   {{ end}}
-    <article class="pa3 pa4-ns nested-copy-line-height bg-washed-yellow-gradient" >
+    <article class="purple pa3 pa4-ns nested-copy-line-height " >
       <div class="f3"> {{- .Page.Params.description -}}</div>
       <div class="f4">{{- .Content -}}</div>
         <ul class="list pl0 f4">
@@ -34,5 +34,5 @@
   </div>
   {{end}}
   {{ define "footer"}}
-    <div class="bg-yellow" style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0.7))">{{ partialCached "page-footer.html" . }}</div>
+    <div class="bg-purple" style="background-image: linear-gradient(to left , rgba(0,0,0,.5), rgba(0,0,0,0.7))">{{ partialCached "page-footer.html" . }}</div>
   {{end}}
