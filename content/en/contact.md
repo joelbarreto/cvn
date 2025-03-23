@@ -31,7 +31,7 @@ layout = ''
 <!-- ![SF Bay Pencil sketch](</images/San-Francisco-South-Bay-pencil-sketch.webp>) -->
 
 <div class="f4 flex-ns flex-wrap items-center justify-between">
-    <blockquote class="w-100" style="margin: 1rem;">Our phone number is <a class="link" href="tel:+15105767116" >+1-510-576-7116</a></blockquote>
+    <blockquote class="w-100" style="margin: 1rem;">Our phone number is <a class="link nowrap" href="tel:+15105767116" >+1-510-576-7116</a></blockquote>
     <blockquote class="w-100" style="margin: 1rem;" >Our general email id is <a class="link" href="info@caringvalley.org" target="_blank">info@caringvalley.org</a></blockquote>
   <div class="flex-ns">
     <blockquote class="w-100" style="margin: 1rem;">We are located at <a class="link" href="https://maps.app.goo.gl/Ms2jGd8GTbSNdefJ6" target="_blank">
