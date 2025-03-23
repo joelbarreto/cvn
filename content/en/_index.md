@@ -17,7 +17,7 @@ text_color = 'white'
 menu_text_color = 'gold'
 
 [cascade]
-  #featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+  featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   featured_image_body = "images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   #featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
   #featured_image_body = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"

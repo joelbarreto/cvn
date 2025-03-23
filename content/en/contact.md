@@ -1,23 +1,34 @@
 +++
-draft = true
+# begin front matter
 
-# menu = ['footer']
-title ='Contact'
-subtitle = "Contact"
-# [languages.en.menu.main]
-#   name = "Contact"
-#   url = "/contact"
-#   weight = 1
-
-#featured_image = ""
+date = '2025-02-08T14:38:34-08:00'
+draft = false
+title = 'Contact Us'
+# author = 'CVN Board of Directors'
+description = 'We would like to hear from you'
 omit_header_text = true
-description = "We'd love to hear from you"
-type = "page"
+show_reading_time = false
 
+# featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+# featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+
+featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
+featured_image_body = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
+cover_dimming_class = "bg-white-10"
+
+type = 'cvn'
+layout = ''
+# body_classes = ""
+
+[menus.main]
+  name = 'Contact'
+  weight = 4
+
+# end front matter
 +++
 
+<!-- ![SF Bay Pencil sketch](</images/San-Francisco-South-Bay-pencil-sketch.webp>) -->
 
+> We are located at 39899 Balentine Dr, Ste 136, Newark, CA 94560
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service. 
-
-{{< form-contact action="https://example.com"  >}}
+> Our phone number is +1-510-576-7116
