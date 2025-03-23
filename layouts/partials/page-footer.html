@@ -3,8 +3,8 @@
     <a class="w-100 hover-gold no-underline white-70 dn dib-ns" href="{{ .Site.Home.Permalink }}" >
       &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
     </a>
-    <span class="w-100 f5">A California Public Benefit Corporation</span>
-    <div class="f5 tr w-100">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</div>
+    <div class="w-100 tc f5 dib-ns">A registered 501(c)(3) non-profit organization<br>Tax ID : 33-3041229</div>
+    <span class="w-100 tr f5 dn dib-l">A California Public Benefit<br>Corporation</span>
     <div>{{ partialCached "social/follow.html" . }}</div>
   </div>
 </footer>

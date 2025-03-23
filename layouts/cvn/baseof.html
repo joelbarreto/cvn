@@ -61,6 +61,17 @@
     <main class="pt0 pb0" role="main">
       {{ block "main" . }}{{ end }}
     </main>
-    {{ block "footer" . }}{{ partialCached "site-footer.html" . }}{{ end }}
+
+    {{ block "footer" . }}
+    <div class='{{ .Site.Params.background_color_class | default "bg-black" }}'>
+      {{ if eq .Kind "home" }}
+        {{ partialCached "home-footer.html" . }}
+      {{ else if eq .Kind "page" }}
+        {{ partial "page-footer.html" . }}
+      {{ else }}
+        {{ partialCached "site-footer.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
   </body>
 </html>

@@ -6,6 +6,7 @@
 {{ define "main" }}
   {{ $page := .}}
   {{ $section := .Site.GetPage "section" .Section }}
+
   <div class="cover bg-bottom" style="background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.7)), url('{{ trim .Params.featured_image_body "/" | absURL }}');">
     <div class="gold" style="background-image: linear-gradient(to bottom, rgba(0,0,0,.7),rgba(0,0,0,0));">{{ partial "home-header.html" . }}</div>
     <div class ="pv6 ph3 white">
