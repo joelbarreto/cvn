@@ -91,9 +91,9 @@
     backface-visibility: hidden;
     -webkit-transform: translateX(0%);
     transform: translateX(0%);
-    transition: -webkit-transform .30s ease-in;
-    transition: transform .30s ease-in;
-    transition: transform .30s ease-in, -webkit-transform .30s ease-in;
+    transition: -webkit-transform .5s ease-in;
+    transition: transform .5s ease-in;
+    transition: transform .5s ease-in, -webkit-transform .5s ease-in;
 }
 
 .shrink-right:hover,

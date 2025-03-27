@@ -32,6 +32,6 @@ layout = ''
 
 > Our phone number is <a href="tel:+15105767116" class="link">+1-510-576-7116</a>
 
-> Our general email id is <a href="mailto:info@caringvalley.org" class="link">info@caringvalley.org</a>
+> Our general email id is <a href="mailto:info@caringvalley.org" class="link" target="_blank">info@caringvalley.org</a>
 
 > We are located at <a class="link" href="https://maps.app.goo.gl/Ms2jGd8GTbSNdefJ6">39899 Balentine Dr, Ste 136, Newark, CA 94560, USA</a>
