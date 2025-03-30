@@ -7,7 +7,7 @@ type = 'cvn'
 omit_header_text = true
 +++
 
-The board of directors held their first meeting at Newark, CA.<!--more--> The founding board consisted of three directors
+The board of directors held their first meeting at Newark, CA<!--more-->. The founding board consisted of three directors
 - Joel Barreto
 - Sowmya Krishnan
 - Zaheer Allam

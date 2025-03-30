@@ -25,7 +25,7 @@
                 <div class="nowrap ">{{ .Title }}</div>
               </div>
               <!-- <div class="w-100 mid-gray">{{ .Summary | strings.TrimPrefix "<p>" | strings.TrimSuffix "</p>" }}</div> -->
-              <div class="w-100 mid-gray">{{ .Summary | plainify }}</div>
+              <div class="w-100 flex items-center mid-gray">{{ .Summary | plainify }}</div>
             </li>
           </a>
         {{ end }}
