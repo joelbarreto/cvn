@@ -62,8 +62,9 @@
       {{ block "main" . }}{{ end }}
     </main>
 
-    <div class="flex-auto cover bg-bottom" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)),
-      {{ if .Page.Params.featured_image_body }} url('{{ .Page.Params.featured_image_body }}') {{ end}} ">
+    <div class="flex-auto cover bg-bottom"
+         style="background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)),
+              {{ if .Page.Params.featured_image_body }} url('{{ .Page.Params.featured_image_body }}') {{ end}} ">
     </div>
      <div class='w-100 {{ .Site.Params.background_color_class | default "bg-black" }}'>
     {{ block "footer" . }}

@@ -51,7 +51,7 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
         {{ end }}
       </div>
-      <div class="dn-ns dn w-25">
+      <div class="db-ns dn w-25">
         {{if $img := .Params.featured_image_body}}
         {{ $img := trim $img "/" | relURL }}
         <img src="{{$img}}" class="fr">
@@ -61,7 +61,7 @@
     
     <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
          style="background-image: none;">
-      <div class="ma3 justify-center ">{{- .Content -}}</div>
+      <div class="ma3">{{- .Content -}}</div>
       {{- partial "tags.html" . -}}
       <div class="mt1 instapaper_ignoref">
       {{ if .Site.Config.Services.Disqus.Shortname }}
