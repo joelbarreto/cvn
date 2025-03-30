@@ -19,7 +19,7 @@ featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose
 
 
 type = 'cvn'
-layout = ''
+# layout = 'single'
 # body_classes = ""
 
 [menus.main]

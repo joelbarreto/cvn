@@ -8,7 +8,7 @@ type = 'cvn'
 layout = 'list'
 omit_header_text = false
 
-#[cascade]
+[cascade]
   featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
   featured_image_body = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
   cover_dimming_class = "bg-white-10"

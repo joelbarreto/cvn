@@ -8,11 +8,9 @@ type = 'cvn'
 layout = ''
 omit_header_text = false
 
-# featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
-featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
-
 [cascade]
-featured_image_body = ""
+featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+# featured_image_body = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
 
 [menus.main]
   name = 'Timeline'
