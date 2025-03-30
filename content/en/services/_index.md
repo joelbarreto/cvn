@@ -7,13 +7,14 @@ theme_version = "2.8.2"
 type = 'cvn'
 layout = 'list'
 omit_header_text = false
-[pagination]
-  pagerSize = 9
 
-[cascade]
+#[cascade]
   featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
   featured_image_body = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
   cover_dimming_class = "bg-white-10"
+
+[pagination]
+  pagerSize = 9
 
 [menus.main]
   name = 'Services'
