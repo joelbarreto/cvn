@@ -3,6 +3,7 @@ date = '2025-01-20 23:39:32'
 draft = false
 title ='Incorporation'
 summary = 'Caring Valley is incorporated in **California**'
+omit_header_text = true
 type = 'cvn'
 +++
 
