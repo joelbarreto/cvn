@@ -9,6 +9,7 @@ type = 'cvn'
 layout = ''
 omit_header_text = false
 weight = 4
+featured_image_body = "/images/maslov.png"
 
 +++
 Our activities list designed around Maslow's Hierarchy of Needs. Each activity targets one of the levels in the hierarchy:<!--more--> 
