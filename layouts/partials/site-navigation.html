@@ -5,7 +5,7 @@
           <ul class="ma0 {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
         <li class="list dib">{{$.Site.Title}}</li>
         {{ with .Site.Params.site_logo }}
-        <li class="list dib"><img src="{{ relURL . }}"  class="mw2" alt="{{ $.Site.Title }}"></li>
+        <li class="list dib"><img src="{{ trim . "/" | relURL }}"  class="mw2" alt="{{ $.Site.Title }}"></li>
         {{ end }}
       </ul>
     </a>
