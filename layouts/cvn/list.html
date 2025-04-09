@@ -1,8 +1,8 @@
 {{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
 <!-- {{ $featured_image_body := partial "func/GetFeaturedImage.html" . }} -->
-{{ $featured_image_body = trim .Params.featured_image_body "/" | relURL }}
-<div class="bg-white-20 cover bg-bottom " style="background-image: url('{{ $featured_image_body }}')">
+{{ $background_image_body := trim .Params.background_image_body "/" | relURL }}
+<div class="bg-white-20 cover bg-bottom " style="background-image: url('{{ $background_image_body }}')">
 <article class="pa3 pa4-ns nested-copy-line-height {{ .Params.cover_dimming_class }}">
       <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy bg-white {{ $.Param "text_color" | default "mid-gray" }}">
       {{- .Content -}}
@@ -11,6 +11,10 @@
       {{ range .Paginator.Pages }}
         <!-- <div class="relative w-100 w-30-l mb4 bg-white-90 br4" style="position: sticky; top: 5%;"> -->
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4" >
+          {{ if $img := .Params.featured_image_body }}
+          {{ $img := trim $img "/" | relURL }}
+          <img src="{{$img}}">
+          {{ end }}
           {{ .Render "summary" }}
         </div>
       {{ end }}
