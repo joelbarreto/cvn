@@ -10,10 +10,11 @@
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range .Paginator.Pages }}
         <!-- <div class="relative w-100 w-30-l mb4 bg-white-90 br4" style="position: sticky; top: 5%;"> -->
-        <div class="relative w-100 w-30-l mb4 bg-white-90 br4" >
-          {{ if $img := .Params.featured_image_body }}
-          {{ $img := trim $img "/" | relURL }}
-          <img src="{{$img}}">
+        <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
+          {{ with .Params.featured_image_body }}
+          <span class="dib tc br4">
+            <img src="{{ . | relURL }}" class="br--top br4">
+          </span>
           {{ end }}
           {{ .Render "summary" }}
         </div>

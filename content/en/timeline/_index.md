@@ -10,6 +10,7 @@ omit_header_text = false
 
 [cascade]
 featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+background_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
 # featured_image_body = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
 
 [menus.main]
