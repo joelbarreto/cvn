@@ -26,7 +26,10 @@ tags = ["Inner Circle"]
       zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-inner-circle-2?modal=true'>
       I want to join the CVN&nbsp;Inner&nbsp;Circle
   </button>
+  <button class="br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/ticketing/cvn-inner-circle-2'">Apple&nbsp;Pay or Google&nbsp;Pay Donors</button>
 </div>
+
+Apple Pay or Google Pay users 
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 <!-- <div class="relative vh-50 w-100 pt5">
     <iframe 
