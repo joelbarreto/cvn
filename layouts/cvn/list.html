@@ -13,7 +13,7 @@
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
           {{ with .Params.featured_image_body }}
           <span class="dib tc br4">
-            <img src="{{ . | relURL }}" class="br--top br4">
+            <img src="{{ trim . "/" | relURL }}" class="br--top br4">
           </span>
           {{ end }}
           {{ .Render "summary" }}
