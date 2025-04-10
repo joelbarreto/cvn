@@ -7,8 +7,8 @@ show_reading_time = false
 omit_header_text = false
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
-featured_image_body = "images/why286.webp"
-background_image_body = "images/why286.webp"
+featured_image_body = "/images/why286.webp"
+background_image_body = "/images/why286.webp"
 # background_color_class = "bg-light-blue"
 
 type = 'cvn'
@@ -16,15 +16,16 @@ layout = 'page'
 tags = ["Inner Circle"]
 +++
 
-Join the <span class="dib purple b">Caring Valley Inner Circle</span> and support our cause. We request our Board Members and Key Volunteers to contribute **$286** towards an annual membership to the CVN Inner Circle. **100%** of your donation will go towards our Unrestricted General Fund
+<p>Join the <span class="dib purple b">Caring Valley Inner Circle</span> and support our cause. We request our Board Members and Key Volunteers to contribute <span class="dib green b">$286</span> towards an annual membership to the CVN Inner Circle. Your donation is fully tax deductible and <span class="dib green b">100%</span> of your donation will go towards our Unrestricted General Fund</p>
 
 <div class="tc">
-<a href="/posts/why286" class="link green pl3-ns pt1 b nowrap">Why $286? Click to find out!</a>
+<img src="/images/cvn2.png" alt="cvn logo green purple" class="dib w4">
+<a href="/posts/why286" class="link dib green b nowrap">Why $286? Click to find out!</a>
 
-<button class="br3 ph2 pv1 hover-gold bg-dark-green white"
-    zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-inner-circle-2?modal=true'>
-    I'm ready to join the CVN Inner Circle
-</button>
+  <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
+      zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-inner-circle-2?modal=true'>
+      I want to join the CVN&nbsp;Inner&nbsp;Circle
+  </button>
 </div>
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 <!-- <div class="relative vh-50 w-100 pt5">
