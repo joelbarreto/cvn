@@ -29,4 +29,4 @@ If happiness is truly our goal, maybe it’s time to **redefine what we value**.
 
 CARING VALLEY will be my vehicle for this journey.
 
---Joel
+--jb

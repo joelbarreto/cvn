@@ -2,7 +2,8 @@
 date = '2025-02-08T13:10:50-08:00'
 draft = false
 title = "Founder's Message"
-description = "We have a right to happiness"
+description = "Everyone has a right to Happiness"
+author = "Joel Barreto"
 featured_image = "/images/calaveras.webp"
 featured_image_body = "/images/calaveras-1.webp"
 
@@ -11,10 +12,10 @@ layout = ''
 tags = ["founders"]
 +++
 
-One day, I asked an AI agent
+One day, as I was thinking about what makes people happy, it struck me that people would be happy if they had all their necessities met. <span class="dark-blue f4">So, I asked an AI agent:</span>
 > *what are the basic necesities for humans?*
 
-This is what it told me:<!--more-->
+<span class="dark-blue f4">This is what it told me:</span><!--more-->
 
 > When we talk about basic necessities for humans, we're diving into the essentials that support life and well-being. Here’s a rundown:
 > 
@@ -30,8 +31,14 @@ This is what it told me:<!--more-->
 > 
 > These are the fundamentals that underpin a healthy, happy, and stable life. Anything you'd like to explore further?
 
-### We have a right to happiness
-Every human being has the right to *happiness* and a healthy mind is the key to sustained happiness. We need *good health* and *meaningful social connections* to feel happy. And if we have these, we will be happy even if we are low on any of the other essentials. Our survival instincts are phenomenal at keeping us alive, but they don't seem to kick in to elevate happiness. Only other humans can do that with **Compassion**, **Gratitude**, and **Love**. 
+<span class="dark-blue f4">Then I asked myself - what can I do about this?</span>
+There are lots of organizations focused on helping the poor and on the first 4 categories. And the last 3 are the focus of governments and large foundations. Money can address many of these necessities, **but 4,5 & 6 impacts everyone irrespective of income levels or age.** It struck me that I am at my unhappiest when I am *lonely* or I'm dealing with *health issues*. If this was true for me, then it is most likely the case for many others as well.
 
---jb 2025-02-15 12:08:48
+<span class="dark-green f3">At Caring Valley, we believe everyone has **Right to Happiness**</span>
+
+Every human being deserves happiness and and a healthy mind is the foundation for lasting joy. We need *good health* and *meaningful social connections* to feel happy. Even if other necessities are lacking, these two alone can sustain happiness. Our survival instincts are phenomenal at keeping us alive, but they don't seem to kick in to make us happier.  **Happiness comes from the kindness of others—their compassion, gratitude, and love.** It’s through human connection that we truly thrive. 
+
+This form's the basis of Caring Valley's mission.
+
+--jb
 
