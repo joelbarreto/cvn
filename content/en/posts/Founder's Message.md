@@ -38,7 +38,7 @@ There are lots of organizations focused on helping the poor and on the first 4 c
 
 Every human being deserves happiness and and a healthy mind is the foundation for lasting joy. We need *good health* and *meaningful social connections* to feel happy. Even if other necessities are lacking, these two alone can sustain happiness. Our survival instincts are phenomenal at keeping us alive, but they don't seem to kick in to make us happier.  **Happiness comes from the kindness of others—their compassion, gratitude, and love.** It’s through human connection that we truly thrive. 
 
-This form's the basis of Caring Valley's mission.
+This sets the foundation for Caring Valley's mission.
 
 --jb
 
