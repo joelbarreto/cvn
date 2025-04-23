@@ -55,7 +55,7 @@
   </head>
 
   {{- $environment := hugo.Environment | default "production" -}}
-  <body class="min-vh-100 flex flex-column ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white" }} {{ $environment }}">
+  <body class="min-vh-90 flex flex-column ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white" }} {{ $environment }}">
 
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="w-100 pt0 pb0" role="main">

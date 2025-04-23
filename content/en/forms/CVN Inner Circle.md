@@ -16,20 +16,22 @@ layout = 'page'
 tags = ["Inner Circle"]
 +++
 
-<p>Join the <span class="dib purple b">Caring Valley Inner Circle</span> and support our cause. We request our Board Members and Key Volunteers to contribute <span class="dib green b">$286</span> towards an annual membership to the CVN Inner Circle. Your donation is fully tax deductible and <span class="dib green b">100%</span> of your donation will go towards our Unrestricted General Fund</p>
+<p>Join the <span class="dib purple b">Caring Valley Inner Circle</span> and support our cause. We request our Board Members and Key Volunteers to contribute <span class="dib green b">$286</span> towards an annual membership to the CVN Inner Circle. Your donation is fully tax deductible and <span class="dib green b">100%</span> of your donation will go towards our Unrestricted General Fund</p><!--more-->
 
 <div class="tc">
 <img src="/images/cvn2.png" alt="cvn logo green purple" class="dib w4">
 <a href="/posts/why286" class="link dib green b nowrap">Why $286? Click to find out!</a>
 
   <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
-      zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-inner-circle-2?modal=true'>
-      I want to join the CVN&nbsp;Inner&nbsp;Circle
+      zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-2025-inner-circle?modal=true'>
+      Credit&nbsp;Card or Bank(ACH)\
   </button>
-  <button class="br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/ticketing/cvn-inner-circle-2'">Apple&nbsp;Pay or Google&nbsp;Pay Donors</button>
+  <button class="br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/ticketing/cvn-2025-inner-circle'">Apple&nbsp;Pay or Google&nbsp;Pay</button>
 </div>
-
-Apple Pay or Google Pay users 
+<div class="tc">
+  <p>OR<br>Scan to checkout</P>
+  <image src="/images/CVN-2025-Inner-Circle-DonateQR.png"/>
+</div>
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 <!-- <div class="relative vh-50 w-100 pt5">
     <iframe 
