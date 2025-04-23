@@ -20,7 +20,7 @@ tags = ["Inner Circle"]
 
 <div class="tc">
 <img src="/images/cvn2.png" alt="cvn logo green purple" class="dib w4">
-<a href="/posts/why286" class="link dib green b nowrap">Why $286? Click to find out!</a>
+<a href="/posts/why286" class="link dib green b nowrap">Why $286? Click here to find out!</a>
 
   <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
       zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-2025-inner-circle?modal=true'>
