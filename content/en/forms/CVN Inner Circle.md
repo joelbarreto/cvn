@@ -19,7 +19,7 @@ tags = ["Inner Circle"]
 <p>Join the <span class="dib purple b">Caring Valley Inner Circle</span> and support our cause. We request our <em>Board Members and Key Volunteers</em> to contribute <span class="dib green b">$286</span> towards an annual membership to the CVN Inner Circle. Your donation is fully tax deductible and <span class="dib green b">100%</span> of your donation will go towards our <em>Unrestricted General Fund</em></p><!--more-->
 
 <div class="tc">
-<img src="/images/cvn2.png" alt="cvn logo green purple" class="dib w4">
+<img src='{{< fixURL "/images/cvn2.png" >}}' alt="cvn logo green purple" class="dib w4">
 <a href="/posts/why286" class="link dib green b nowrap">Why $286?<br>Click here to find out!</a>
 
   <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
