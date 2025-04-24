@@ -30,7 +30,7 @@ tags = ["Inner Circle"]
 </div>
 <div class="tc">
   <p>OR<br>Scan to checkout</P>
-  <image src="/images/CVN-2025-Inner-Circle-DonateQR.png"/>
+  <image src='{{<fixURL "/images/CVN-2025-Inner-Circle-DonateQR.png">}}'/>
 </div>
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 <!-- <div class="relative vh-50 w-100 pt5">
