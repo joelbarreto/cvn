@@ -30,7 +30,7 @@ theme = 'ananke'
   # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
   # cover_dimming_class = "bg-black-20"
   recent_posts_number = 3
-  body_classes = "montserrat bg-light-gray near-black"
+  body_classes = "sans-serif bg-light-gray near-black"
   show_reading_time = true
   omit_header_text = true
 
