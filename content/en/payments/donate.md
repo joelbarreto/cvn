@@ -20,7 +20,7 @@ tags = [""]
         <!-- <p>Open on mobile</P> -->
         <image src='{{<fixURL "/images/CVN-2025-Inner-Circle-DonateQR.png">}}'/>
     </div>
-    <p>We’re grateful for your support!<br>You can donate using any of these convenient methods:</p>
+    <p>We’re grateful for your support!<br>You can donate to our Unrestricted General Fund using any of the convenient methods below.</p>
 </div>
 <div class="tc flex justify-start-ns justify-around">
     <ul class="list pl0">

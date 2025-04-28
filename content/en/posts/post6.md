@@ -21,8 +21,8 @@ Loneliness can be a heavy burden, especially for the elderly. Our volunteers ded
 #### Grocery Shopping Assistance
 Navigating grocery stores can be daunting for some of our elderly community members. Our volunteers step in to help with shopping, ensuring that they have everything they need. This service not only provides essentials but also reassures them that they are not alone.
 
-#### Transportation Services
-Getting to medical appointments, social events, or simply running errands can be a challenge. Our organization offers reliable transportation services, helping our elderly neighbors maintain their independence and stay connected with the community.
+#### Transportation Assistance
+Getting to social events, or simply running errands can be a challenge. Our organization offers assistance with transportation, helping our elderly neighbors maintain their independence and stay connected with the community. This assistance is for non-medical transportation only and is provided by our volunteers and ride-share services.
 
 #### Wellness Checks
 Regular wellness checks are crucial for the safety and well-being of our elderly members. Our volunteers conduct these checks, ensuring that any health or safety concerns are addressed promptly. It's a small act that makes a significant difference.
