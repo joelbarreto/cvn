@@ -26,6 +26,8 @@
     --washed-red: #FFDFDF;
 
     --orange: #FF6300;
+    --light-orange:  #f6921e;
+    --washed-orange: #FFBFA5;
 
     --gold: #FFB700;
     --yellow: #FFD700;
@@ -51,11 +53,27 @@
     --light-blue: #96CCFF;
     --lightest-blue: #CDECFF;
     --washed-blue: #F6FFFE;
+}
 
-   
-   
-   
-  }
+.light-orange {
+    color: var(--light-orange);
+}
+.bg-light-orange {
+    background-color: var(--light-orange);
+}
+.hover-bg-light-orange:hover {
+    background-color: var(--light-orange);
+}
+
+.washed-orange {
+    color: var(--washed-orange);
+}
+.bg-washed-orange {
+    background-color: var(--washed-orange);
+} 
+.hover-bg-washed-orange:hover {
+    background-color: var(--washed-orange);
+}
 
 .bg-dark-blue-gradient {
     /*dark-blue, washed-blue, lightest-blue*/
@@ -164,3 +182,7 @@
 .minw-50 {
     min-width: 50%;
 }
+
+.hover-b:hover {
+    font-weight: bold;
+  }
