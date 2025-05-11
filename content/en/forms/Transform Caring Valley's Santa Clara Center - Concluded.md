@@ -1,5 +1,6 @@
 +++
-date = '2025-05-13 11:02:35'
+date = 2025-05-13 11:02:35
+expiryDate = 2025-05-10T01:57:14-07:00
 draft = false
 title = "Transform Caring Valley's Santa Clara Center - Concluded"
 description = "Campaign Concluded on May 10, 2025"

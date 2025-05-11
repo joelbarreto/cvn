@@ -19,5 +19,5 @@ summaryLength = 0
   # background_color_class = "bg-light-green"
 
 +++
-{{ .layout }}
+
 Below is a list of donor campaigns, showcasing both <b class="nowrap">ongoing initiatives</b> and those that have <b class="nowrap">recently wrapped up</b>.
