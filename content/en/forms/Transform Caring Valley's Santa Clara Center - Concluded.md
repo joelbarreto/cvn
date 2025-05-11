@@ -1,8 +1,8 @@
 +++
-date = '2025-05-01 14:28:24'
+date = '2025-05-13 11:02:35'
 draft = false
-title = "Transform Caring Valley's Santa Clara Center"
-description = "Help us raise the funds needed"
+title = "Transform Caring Valley's Santa Clara Center - Concluded"
+description = "Campaign Concluded on May 10, 2025"
 show_reading_time = false
 omit_header_text = false
 
@@ -37,3 +37,41 @@ Your support will make a difference in creating a space where our community can 
   <p>OR<br>Scan to checkout</P>
   <image class="mw5" src='{{<fixURL "/images/202505/CVN QR - Transfrom Caring Valleys' Santa Clara Center.png">}}'/>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+<script>
+  // do this for 6 seconds
+var duration = 6 * 1000;
+var end = Date.now() + duration;
+(function launchFireworks() {
+  // launch a few confetti from the left edge
+  confetti({
+    particleCount: 6,
+    angle: 60,
+    spread: 55,
+    origin: { x: 0 }
+  });
+  // and launch a few from the right edge
+  confetti({
+    particleCount: 6,
+    angle: 120,
+    spread: 55,
+    origin: { x: 1 }
+  });
+  // keep going until we are out of time
+  if (Date.now() < end) {
+    requestAnimationFrame(launchFireworks);
+  }
+})();
+  // window.onLoad = function() {
+  //   console.log("Page has loaded");
+  //   launchFireworks();
+  // }
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   console.log("DOM is ready!");
+  //   frame();
+  // });
+</script>
+
+
+

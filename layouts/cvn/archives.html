@@ -1,0 +1,35 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+{{ $background_image_body := trim .Params.background_image_body "/" | relURL }}
+<div class="bg-white-20 cover bg-bottom " style="background-image: url('{{ $background_image_body }}')">
+  <article class="pa3 pa4-ns nested-copy-line-height {{ .Params.cover_dimming_class }}">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy bg-white {{ $.Param "text_color" | default "mid-gray" }}">
+        {{- .Content -}}
+    </section>
+    <section class="flex-ns flex-wrap justify-around mt5">
+      {{/* 
+        The following line is a workaround to filter out pages with no ExpiryDate set in frontmatter.
+        The ExpiryDate should have been nil (unefined) but is set to UTC start of time (0001-01-01 00:00:00 +0000 UTC) when not set in frontmatter.
+        We can detect this by checking if the ExpiryDate is not equal to the start of time OR by using the IsZero time method.
+        Be sure to build using "hugo server --buildExpired"
+      */}}
+      <!-- {{ $startOfUTC := time.AsTime "0001-01-01 00:00:00 +0000 UTC"}}
+      {{ $expiredPages := where .Site.RegularPages "ExpiryDate.UTC" "ne" $startOfUTC }} -->
+      {{ $expiredPages = where $expiredPages "ExpiryDate.UTC" "lt" time.Now.UTC }}
+      {{ $expiredPages := where .Site.RegularPages "ExpiryDate.UTC.IsZero" "ne" true }}
+      {{ $paginator := .Paginate $expiredPages }}
+      {{ range $paginator.Pages}}
+        <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
+          {{ with .Params.featured_image_body }}
+          <span class="dib tc br4">
+            <img src="{{ trim . "/" | relURL }}" class="br--top br4">
+          </span>
+          {{ end }}
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+</div>
+{{ end }}
