@@ -5,7 +5,7 @@ title = "Join the CVN Inner Circle"
 description = "Donate $286 to Caring Valley"
 show_reading_time = false
 omit_header_text = false
-weight = 1
+# weight = 1
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
 featured_image_body = "/images/why286.webp"

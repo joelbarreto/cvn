@@ -15,8 +15,8 @@
       */}}
       <!-- {{ $startOfUTC := time.AsTime "0001-01-01 00:00:00 +0000 UTC"}}
       {{ $expiredPages := where .Site.RegularPages "ExpiryDate.UTC" "ne" $startOfUTC }} -->
-      {{ $expiredPages = where $expiredPages "ExpiryDate.UTC" "lt" time.Now.UTC }}
-      {{ $expiredPages := where .Site.RegularPages "ExpiryDate.UTC.IsZero" "ne" true }}
+      {{ $expiredPages = where  .Site.RegularPages "ExpiryDate.UTC" "lt" time.Now.UTC }}
+      {{ $expiredPages := where $expiredPages "ExpiryDate.UTC.IsZero" "ne" true }}
       {{ $paginator := .Paginate $expiredPages }}
       {{ range $paginator.Pages}}
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4">

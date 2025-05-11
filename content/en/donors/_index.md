@@ -11,6 +11,10 @@ type = 'cvn'
 layout = ''
 summaryLength = 0
 
+[menus.main]
+  name = 'Donors'
+  weight = 2
+
 [cascade]
 # featured_image = "/images/meric-dagli-nShmSIu1bCo-unsplash.webp"
   featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
