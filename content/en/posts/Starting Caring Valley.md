@@ -6,7 +6,7 @@ description = "What motivated me to start Caring Valley"
 author = "Joel Barreto"
 
 featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
-featured_image_body = "/images/cvn-round.png"
+featured_image_body = "/images/logo/cvn-round.png"
 # featured_image_body = "/images/Gemini_Generated_Image_wlwh5vwlwh5vwlwh.webp"
 # featured_image_body = "/images/calaveras.webp"
 

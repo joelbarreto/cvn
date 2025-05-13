@@ -18,7 +18,7 @@ tags = ["Matching Grant"]
 
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 
-> We are no longer accpeting donations to this campaign. Thanks to generous donors, we have **met our goal** of $750 and received the matching grant of $750 from RITSNET.
+> We are no longer accepting donations to this campaign. Thanks to generous donors, we have **met our goal** of $750 and received the matching grant of $750 from RITSNET.
 
 Caring Valley is in need of <span class="dib purple b">essential furniture and IT equipment</span> to create a more <em>functional and welcoming space for volunteers, donors, and beneficiaries</em>. Thanks to a generous corporate donor, we have received a <b>significant donation</b> of furniture and audio-video equipment!
 

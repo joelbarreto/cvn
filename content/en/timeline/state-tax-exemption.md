@@ -1,5 +1,5 @@
 +++
-date = '2025-03-15'
+date = 2025-03-15
 draft = true
 title ='CA State Tax Exemption'
 summary = 'California State Tax Exemption approved'

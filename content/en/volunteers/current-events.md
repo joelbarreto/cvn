@@ -3,11 +3,13 @@
 
 date = '2025-05-03 13:52:48'
 draft = false
-title = 'Volunteers'
+title = 'Current Events'
 author = ''
-description = 'Your dedication drives our success'
+description = 'Join Caring Valley as a Volunteer'
 omit_header_text = true
 show_reading_time = false
+read_more_copy = "Search Upcoming Events"
+
 
 # featured_image = "/images/max-pruvost-OJ02cQHePds-unsplash.jpg"
 # featured_image_body = "/images/max-pruvost-OJ02cQHePds-unsplash-1.jpg"
@@ -15,21 +17,26 @@ show_reading_time = false
 # featured_image = "/images/pencil-sketch-of-Santa-Clara-Valley-1.webp"
 # featured_image_body = "/images/pencil-sketch-of-Santa-Clara-Valley-3.webp"
 featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
-featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+featured_image_body = "/images/202505/volunteer2.png"
 
 
 type = 'cvn'
 # layout = 'single'
 # body_classes = ""
-
-[menus.main]
-  name = 'Volunteers'
-  weight = 1
-
+weight = 1
 # end front matter
 +++
 
-<span class="green">Join Caring Valley as a Volunteer</span>
+
+<p class="f5">Search Below for our Current Voluteer Opportunites</p>
+<!--more-->
+<div style="position: relative; width: 100%; height: 0; padding-top: 129.4118%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"  id="point_iframe" src="https://pointapp.org/embed/923849f1-1fda-4da0-a5fd-cb90e27322e8?size=12&show_search=true&viewOptions=grid&showStartTime=true&showDayOfWeek=true&showLocation=true&showSpots=true&showOrganization=true&widgetId=1137" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture fullscreen">
+</iframe>
+<!-- <iframe  class="flex w-100 min-vh-100 bw0" id="point_iframe" src="https://pointapp.org/embed/923849f1-1fda-4da0-a5fd-cb90e27322e8?size=12&show_search=true&viewOptions=grid&showStartTime=true&showDayOfWeek=true&showLocation=true&showSpots=true&showOrganization=true&widgetId=1137" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture fullscreen"></iframe> -->
+</div>
 
 Sign up for events with your PointApp credentials. Don’t have an account? Create one for free below!
 
@@ -37,10 +44,6 @@ Sign up for events with your PointApp credentials. Don’t have an account? Crea
   <a href="https://dash.pointapp.org/sign-up?widgetUuid=d7b01695-1371-497b-9a8b-e209c6470667&organization_id=6525&organization_name=CARING VALLEY NONPROFIT&organization_logo=https://firebasestorage.googleapis.com/v0/b/pointapp-8f268.appspot.com/o/331079%2Forganizations%2Fp_1744211391207.png?alt=media&token=19b90f75-f8d2-4c9d-a916-056de0ae2555" target="_blank" class="link mh2 f5 ph3 pv1 br3 white bg-light-orange hover-black" >Join</a>
   <a href="https://dash.pointapp.org/sign-in?widgetUuid=d7b01695-1371-497b-9a8b-e209c6470667&organization_id=6525&organization_name=CARING VALLEY NONPROFIT&organization_logo=https://firebasestorage.googleapis.com/v0/b/pointapp-8f268.appspot.com/o/331079%2Forganizations%2Fp_1744211391207.png?alt=media&token=19b90f75-f8d2-4c9d-a916-056de0ae2555" target="_blank" class="link mh2 f5 ph3 pv1 br3 light-orange bg-white hover-black bg-animate hover-bg-washed-orange">Sign In</a>
 </div>
-
-<p class="f5 tc">Search Below for our Current Voluteer Opportunites</p>
-
-<iframe  class="flex w-100 min-vh-100 bw0" id="point_iframe" src="https://pointapp.org/embed/923849f1-1fda-4da0-a5fd-cb90e27322e8?size=12&show_search=true&viewOptions=grid&showStartTime=true&showDayOfWeek=true&showLocation=true&showSpots=true&showOrganization=true&widgetId=1137" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture fullscreen"></iframe>
 
 <!-- <a href="https://dash.pointapp.org/sign-in?widgetUuid=d7b01695-1371-497b-9a8b-e209c6470667&organization_id=6525&organization_name=CARING VALLEY NONPROFIT&organization_logo=https://firebasestorage.googleapis.com/v0/b/pointapp-8f268.appspot.com/o/331079%2Forganizations%2Fp_1744211391207.png?alt=media&token=19b90f75-f8d2-4c9d-a916-056de0ae2555" target="_blank" class="bwsin">Sign In</a>
 <script src="https://pointapp.org/embed/assets/js/iframe-scripts.js" data-frame-id="1137"></script>

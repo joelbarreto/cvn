@@ -1,19 +1,17 @@
 +++
 draft = false
-title = "Caring Valley Donors"
-  
-description = "Donor Appreciation and Campaigns"
+title = 'Past Volunteer Events'
+author = ''
+# description = 'Your dedication drives our success'
+description = "Past Volunteer Appreciation and Opportunities"
 
 # omit_header_text = "true"
 theme_version = "2.8.2"
 
 type = 'cvn'
-layout = ''
-summaryLength = 0
+layout = 'list'
+summaryLength = 100
 
-[menus.main]
-  name = 'Donors'
-  weight = 2
 
 [cascade]
 # featured_image = "/images/meric-dagli-nShmSIu1bCo-unsplash.webp"
@@ -24,4 +22,4 @@ summaryLength = 0
 
 +++
 
-Below is a list of donor campaigns, showcasing both <b class="nowrap">ongoing initiatives</b> and those that have <b class="nowrap">recently wrapped up</b>.
+Below is a list showcasing our <b class="nowrap">past volunteer events</b>.
