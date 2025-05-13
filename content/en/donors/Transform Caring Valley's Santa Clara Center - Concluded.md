@@ -19,10 +19,10 @@ tags = ["Matching Grant"]
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 
 > We are no longer accepting donations to this campaign. Thanks to generous donors, we have **met our goal** of $750 and received the matching grant of $750 from RITSNET.
-
+<!--more-->
 Caring Valley is in need of <span class="dib purple b">essential furniture and IT equipment</span> to create a more <em>functional and welcoming space for volunteers, donors, and beneficiaries</em>. Thanks to a generous corporate donor, we have received a <b>significant donation</b> of furniture and audio-video equipment!
 
-However, to bring these items from **Oakland to Santa Clara**, we need to cover **moving costs estimated at $1,500**. That’s where you come in!<!--more-->
+However, to bring these items from **Oakland to Santa Clara**, we need to cover **moving costs estimated at $1,500**. That’s where you come in!
 **RITSNET**, one of our corporate sponsors, has stepped up with a **challenge grant**, pledging to match every dollar <b>donated—doubling your impact</b>. If we raise $750, RITSNET will match it, helping us fully fund transportation and ensure these vital resources reach our center.
 
 Your support will make a difference in creating a space where our community can thrive. <span class="dib green b">Donate today</span> and be part of this transformation!
