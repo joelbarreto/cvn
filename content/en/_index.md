@@ -19,11 +19,11 @@ menu_text_color = 'gold'
 [cascade]
   featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   featured_image_body = "images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
-  #featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
-  #featured_image_body = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
-  #featured_image = "/images/aerial-sketch-of-Mountain-View-California-1.webp"
-  #featured_image_body = "/images/aerial-sketch-of-Mountain-View-California.webp"
-  #featured_image_body = "/images/watercolor-of-a-valley-in-only-light-blue.webp"
+  # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
+  # featured_image_body = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
+  # featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"
+  # featured_image_body = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
+  # featured_image_body = "/images/watercolor-of-a-valley-in-only-light-blue.webp"
 
 +++
 
