@@ -19,10 +19,10 @@
 
 {{ with $related }}
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
-    <p class="f5 b mb3">{{ i18n "related" }}</p>
-    <ul class="pa0 list">
+    <p class="f5 b">{{ i18n "related" }}</p>
+    <ul class="list flex flex-wrap justify-start">
 	   {{ range . }}
-	     <li  class="mb2">
+	     <li  class="mr2 mb2">
           <a class="link ba bw1 br3 ph2 b--light-blue" href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
