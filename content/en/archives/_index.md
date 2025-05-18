@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Caring Valley Archives"
   
 description = "Old Posts and Donation Campaigns"
@@ -11,6 +11,10 @@ type = 'cvn'
 layout = 'archives'
 summaryLength = 50
 
+[menus.main]
+  name = 'Archives'
+  weight = 3
+
 [cascade]
   featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   #featured_image_body = ""
@@ -18,4 +22,4 @@ summaryLength = 50
   # background_color_class = "bg-light-green"
 
 +++
-These are older posts and donor campaigns that have been archived.
+These are all articles from our website that have been archived.
