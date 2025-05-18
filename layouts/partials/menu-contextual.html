@@ -18,12 +18,12 @@
 {{ $related := .Site.RegularPages.Related . | first 15 }}
 
 {{ with $related }}
-  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height">
     <p class="f5 b">{{ i18n "related" }}</p>
     <ul class="list flex flex-wrap justify-start">
 	   {{ range . }}
 	     <li  class="mr2 mb2">
-          <a class="link ba bw1 br3 ph2 b--light-blue" href="{{ .RelPermalink }}">
+          <a class="link ba bw1 br3 ph2 b--light-blue dark-blue hover-dark-blue hover-bg-light-blue" href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
         </li>
