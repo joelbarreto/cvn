@@ -2,7 +2,7 @@
 date = 2025-05-01 14:28:24
 expiryDate = 2025-05-10T01:22:10-07:00
 draft = false
-title = "Transform Caring Valley's Santa Clara Center"
+title = "Transform Caring Valley's Santa Clara Center - Ended"
 description = "Help us raise the funds needed"
 show_reading_time = false
 omit_header_text = false

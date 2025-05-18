@@ -1,7 +1,7 @@
 +++
 date = 2025-05-11T03:08:41-07:00
 draft = false
-title = "Transform Caring Valley's Santa Clara Center - Concluded"
+title = "Transform Caring Valley's Santa Clara Center"
 description = "Campaign Concluded on May 10, 2025"
 show_reading_time = false
 omit_header_text = false
