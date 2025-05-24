@@ -19,74 +19,50 @@ tags = [""]
 <div class="cf">
     <div class="f6 tc pl3 mw4 dn db-ns fr">
         Open on mobile
-        <image src='{{<fixURL "/images/CVN-2025-Inner-Circle-DonateQR.png">}}' alt="QR code for mobile"/>
+        <image src='{{<fixURL "/images/202505/CVN Donate General Fund QR.png">}}' alt="QR code for mobile"/>
     </div>
     <p>We’re grateful for your support!</p>
     <p>You can donate to our <span class="green">Unrestricted General Fund</span> using any of the convenient methods below. If you would like to make a <span class="blue">Restricted Donation</span> please <a class="link" href='{{<fixURL "/contact" >}}'>call</a> or <a href="mailto:donations@caringvalley.org" class="link">email</a> to discuss your specific requirements.</p>
     <p>Please also vist our <a class="link dib" href='{{<fixURL "/donors" >}}'>Donor site</a> to see our current needs.</p>
  </div>
-<div class="flex justify-around flex-wrap">
+<div class="flex justify-around align-center flex-wrap">
 <!--more-->
-    <ul class="w-30-ns flex-col items-center justify-around list pl0 bg-near-white ph2 tc">
+    <div class="w-30-ns flex-col items-center justify-between bg-white ph2 tc mb2">
       <p class="b f5">Preferred (no fees)</p>
-        <li>
-          <button class="ba b--white br3 ph2 pv1 hover-gold bg-dark-green white"
-            zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-2025-inner-circle?modal=true'>
-            Credit&nbsp;Card or Bank(ACH)
-          </button>
-        </li>
-        <!-- <li>
-          <button class="ba b--white br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/ticketing/cvn-2025-inner-circle'">
-              Apple&nbsp;Pay or Google&nbsp;Pay
-          </button>
-        </li> -->
-        <!-- <li>
-          <a href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle" class="flex justify-around">
-            <img class="w-30" src='{{<fixURL "/images/202505/Apple_Pay_Mark_RGB_041619.svg">}}' alt="Apple Pay" />
-            <img class="w-40" src='{{<fixURL "/images/202505/google-pay-mark_800.svg">}}' alt="Google Pay" />
-          </a>
-        </li> -->
-        <li>
-          <a href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle" class="flex justify-around">
-            <img class="pv2 mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
-          </a>
-        </li>
-    </ul>
-    <ul class="w-30-ns flex-col items-center justify-around list pl0 bg-near-white ph2 tc">
+      <button class="ba b--white br3 ph2 pv1 hover-gold bg-dark-green white"
+        zeffy-form-link='https://www.zeffy.com/embed/ticketing/cvn-2025-inner-circle?modal=true'>
+        Credit&nbsp;Card or Bank(ACH)
+      </button>
+      <a href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle" class="flex align-center justify-center br3 pa2 hover-bg-near-white bg-white">
+        <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
+      </a>
+    </div>
+    <div class="w-30-ns flex-col items-center justify-between pl0 bg-white ph2 tc mb2">
       <p class="b f5">Processing fees (2~3%)</p>
-        <li>
-            <!-- <button class="ba b--dark-blue br3 ph2 pv1 ma2 hover-light-blue bg-dark-blue white" onclick="document.location='https://www.paypal.com/donate/?hosted_button_id=AJP4243BPQNXQ'">
-                PayPal
-            </button> -->
-            <a href="https://www.paypal.com/donate/?hosted_button_id=AJP4243BPQNXQ"><img class="mw4" src="/images/202505/pp_h_rgb.png" alt="PayPal" /></a>
-        </li>
-        <li>
-            <!-- <div id="donate-button-container"> -->
-                <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-                <div id="donate-button" class="mw4 center"> </div>
-                <script>
-                    PayPal.Donation.Button({
-                      env:'production',
-                      hosted_button_id:'AJP4243BPQNXQ',
-                      image: {
-                        src:'/images/202505/pp_h_rgb.png',
-                        alt:'Donate with PayPal button',
-                        title:'PayPal - CVN General Fund',
-                      }
-                    }).render('#donate-button');
-                </script>
-            <!-- </div> -->
-        </li>
-    </ul>
-    <ul class="w-30-ns flex-col items-center justify-around list pl0 bg-near-white ph2 tc">
+      <a href="https://www.paypal.com/donate/?hosted_button_id=AJP4243BPQNXQ" class="flex align-center justify-center br3 pa2 hover-bg-near-white bg-white"><img class="mw4" src="/images/202505/pp_h_rgb.png" alt="PayPal" /></a>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <div id="donate-button" class="mw4 center"> </div>
+        <script>
+            PayPal.Donation.Button({
+              env:'production',
+              hosted_button_id:'AJP4243BPQNXQ',
+              image: {
+                src:'/images/202505/pp_h_rgb.png',
+                alt:'Donate with PayPal button',
+                title:'PayPal - CVN General Fund',
+              }
+            }).render('#donate-button');
+        </script>
+    </div>
+    <div class="w-30-ns flex-col items-center justify-between pl0 bg-white ph2 tc mb2">
       <p class="b f5">Large Amounts</p>
-        <li>
-            <a class="link ba b--white br3 ph2 pv1 ma2 hover-gray bg-light-orange white" href='{{< fixURL "https://www.zeffy.com/ticketing/cvn-2025-inner-circle" >}}' >Check</a>
-        <li>
-        <li>
-            <button class="br3 ph2 pv1 ma2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">DAF&nbsp;Direct</button>
-        </li>
-    </ul>  
+      <a class="link ba b--white br3 ph2 pv1 ma2 hover-gray bg-light-orange white" href='{{< fixURL "https://www.zeffy.com/ticketing/cvn-2025-inner-circle" >}}'>
+        Check
+      </a>
+      <button class="br3 ph2 pv1 ma2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">
+        DAF&nbsp;Direct
+      </button>
+    </div>  
 </div>
 
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
