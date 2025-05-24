@@ -1,6 +1,6 @@
 +++
 date = '2025-04-26 13:47:35'
-draft = true
+draft = false
 title = "Donate"
 description = "Donate to Caring Valley"
 show_reading_time = false
