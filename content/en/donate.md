@@ -48,7 +48,7 @@ tags = [""]
               env:'production',
               hosted_button_id:'AJP4243BPQNXQ',
               image: {
-                src:'/images/202505/pp_h_rgb.png',
+                src:'{{<fixURL"/images/202505/pp_h_rgb.png">}}',
                 alt:'Donate with PayPal button',
                 title:'PayPal - CVN General Fund',
               }
@@ -57,7 +57,7 @@ tags = [""]
     </div>
     <div class="w-30-ns flex flex-column items-center justify-between bg-white ph2 tc pb3 mb3">
       <p class="b f5 dark-blue">Large Amounts</p>
-      <a class="link ba b--white br3 ph2 pv1 hover-gray bg-light-orange white" href='{{< fixURL "https://www.zeffy.com/ticketing/cvn-2025-inner-circle" >}}'>
+      <a class="link ba b--white br3 ph2 pv1 hover-gray bg-light-orange white" href={{< fixURL "https://www.zeffy.com/ticketing/cvn-2025-inner-circle" >}}>
         Check
       </a>
       <button class="br3 ph2 pv1 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">

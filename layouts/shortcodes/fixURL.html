@@ -1,3 +1,5 @@
-{{/* trim doesn't seem to like piping eg {{$url | trim "/"}} doesn't work */}}
-{{ $url := .Get 0}}
-{{trim $url "/" | relURL}}
+{{/* 
+    trim doesn't seem to like piping eg {{$url | trim "/"}} doesn't work
+    {{- is needed to remove leading and trailing space and newlines
+*/}}
+{{- trim (.Get 0) "/" | relURL -}}
