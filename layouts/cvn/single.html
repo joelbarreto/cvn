@@ -62,7 +62,7 @@
       {{end}}
     </header>
     
-    <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif" }} f4 {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
+    <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "sans-serif" }} f4 {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
          style="background-image: none;">
       <div class="ma3">{{- .Content -}}</div>
       {{- partial "tags.html" . -}}

@@ -11,10 +11,12 @@
       {{ range .Paginator.Pages }}
         <!-- <div class="relative w-100 w-30-l mb4 bg-white-90 br4" style="position: sticky; top: 5%;"> -->
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
+          {{ $pageURL := .RelPermalink }}
           {{ with .Params.featured_image_body }}
-          <span class="dib tc br4">
+          <a class="dib tc br4" href="{{$pageURL}}">
+            {{ $img := trim . "/" | relURL }}
             <img src="{{ trim . "/" | relURL }}" class="br--top br4">
-          </span>
+          </a>
           {{ end }}
           {{ .Render "summary" }}
         </div>
