@@ -23,47 +23,47 @@ tags = [""]
       Open on mobile
       <image src='{{<fixURL "/images/202505/CVN Donate General Fund QR.png">}}' alt="QR code for mobile"/>
   </div>
-
+  <p class="b">Dear Donor:</p>
   <p>On behalf of our <span class="red">staff</span>, <span class="blue">beneficiaries</span>, <span class="orange">volunteers</span> and other <span class="green">donors</span>, we would like to <span class="dark-pink nowrap">thank you for your support</span>.</p>
   <p>A donation receipt will be emailed to you when your donation is deposited into our bank account. This could take anywhere from a few minutes to a few weeks depending upon the payment method for your donation.
-  
-  Typical times are:
-
-  <table class="collapse">
-    <thead>
-      <tr class="ph2 stripe-light">
-        <th class="tl">Payment Type</th>
-        <th class="tl">Funding Time</th>
+  <table class="f5 tl" style="border-collapse: separate; border-spacing: 15px 2px;"  >
+    <thead class="" >
+      <tr class="" >
+        <th class="bb bw1 b--blue">Payment Type</th>
+        <th class="bb bw1 b--blue">Typical Funding Time</th>
       </tr>
     </thead>
     <tbody>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">Credit Card</td>
         <td class="">5-10 min</td>
       </tr>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">Apple Pay, Google Pay</td>
         <td class="">5-10 min</td>
       </tr>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">PayPal</td>
         <td class="">1 day</td>
       </tr>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">Bank (eCheck, ACH)</td>
         <td class="">2-5 days</td>
       </tr>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">Check by mail</td>
         <td class="">1-2 weeks</td>
       </tr>
-      <tr class="stripe-light">
+      <tr class="stripe-dark">
         <td class="">DAF Grant</td>
         <td class="">2-4 weeks</td>
       </tr>
     </tbody>
   </table>
-
   </p>
-  <p>If you have any questions about your donation or wish to proivde us with more information please <a class="link blue" href='{{<fixURL "/contact" >}}'>call</a> or <a href="mailto:donations@caringvalley.org" class="link blue">email</a> Once again we are grateful for your support!
+  <p>If you have any questions about your donation or wish to proivde us with more information, please email or call us. See our <a class="link blue" href='{{<fixURL "/contact" >}}'>contact page</a>.</p>
+  <p>Once again, thank you for your support.</p>
+  <p class="b">With Gratitude,<br>
+  Caring Valley Board of Directors<br></p>
+  <a href="mailto:donations@caringvalley.org" class="link blue">donations@caringvalley.org</a>
 </div>
