@@ -33,7 +33,7 @@ tags = [""]
       </button>
       <p class="b f5 dark-blue">Preferred</p>
 </div>
-<div class="flex justify-around items-stretch flex-wrap">
+<div class="flex justify-around justify-between-ns items-stretch flex-wrap">
 <!--more-->
     <div class="w-30-ns flex flex-column items-stretch justify-end bg-white ph2 tc pb3 mb3" style="min-height:175px">
       <a href="https://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
@@ -60,11 +60,14 @@ tags = [""]
     </div>
     <div class="w-30-ns flex flex-column items-stretch justify-end bg-white ph2 tc pb3 mb3" style="min-height:175px">
       <a class="link flex items-stretch justify-center ba b--white br3 ph2 hover-gray bg-light-orange white" href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle">
-        Check
+        Mail Check
       </a>
-      <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">
+      <a class="link flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4">
         DAF&nbsp;Direct
-      </button>
+      </a>
+      <!-- <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">
+        DAF&nbsp;Direct
+      </button> -->
       <p class="b f5 dark-blue">No Fees<br>2~3 weeks</p>
     </div>  
 </div>
@@ -77,5 +80,9 @@ tags = [""]
 <input type="image" class="mw4" src="/images/202505/pp_h_rgb.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form> -->
+
+<!-- daf direct
+<script type = "text/javascript">_dafdirect_settings="333041229_2000_09d23139-57e8-4cf5-b667-e4d0b3f93876"</script>
+<script type = "text/javascript" src = "https://www.dafdirect.org/ddirect/dafdirect4.js"></script> -->
 
 
