@@ -24,4 +24,4 @@ summaryLength = 0
 
 +++
 
-See below for a list of donor campaigns, showcasing both <b class="nowrap">ongoing initiatives</b> and those that have <b class="nowrap">recently wrapped up</b>.
+View our donor opportunities, showcasing both <b class="nowrap">ongoing initiatives</b> and those that have <b class="nowrap">recently wrapped up</b>.
