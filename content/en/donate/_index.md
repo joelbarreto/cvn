@@ -35,7 +35,7 @@ tags = [""]
 </div>
 <div class="flex justify-around justify-between-ns items-stretch flex-wrap">
 <!--more-->
-    <div class="w-30-ns flex flex-wrap item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
+    <div class="w-30-ns flex flex-column item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
       <a href="http6://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
         <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
       </a>
