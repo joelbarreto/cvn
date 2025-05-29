@@ -31,15 +31,15 @@ tags = [""]
         zeffy-form-link="https://www.zeffy.com/embed/donation-form/donate-to-make-a-difference-14280?modal=true">
         Credit&nbsp;Card OR Bank&nbsp;(eCheck)
       </button>
-      <p class="b f6 dark-blue">Preferred</p>
+      <p class="b f6 dark-blue">Preferred<br>No fees</p>
 </div>
 <div class="flex justify-around justify-between-ns items-stretch flex-wrap">
 <!--more-->
-    <div class="w-30-ns flex flex-column items-stretch justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
+    <div class="w-30-ns flex flex-wrap item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
       <a href="http6://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
         <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
       </a>
-      <p class="b f6 dark-blue mv0">No fees<br>Less than $1000</p>
+      <p class="b f6 dark-blue mv0 flex flex-column justify-end">No fees<br>5~10 min<br>Less than $1000</p>
     </div>
     <div class="w-35-ns flex flex-column items-stretch justify-around bg-white ph2 tc p3 mb3" style="min-height:200px">
       <a class="link flex items-stretch justify-center ba b--white br3 ph2 hover-gray bg-light-orange white" href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle">
@@ -54,11 +54,11 @@ tags = [""]
       <!-- <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">
         DAF&nbsp;Direct
       </button> -->
-      <p class="b f6 dark-blue mv0">No Fees<br>2~4 weeks</p>
+      <p class="b f6 dark-blue mv0 flex flex-column justify-end">No Fees<br>2~4 weeks</p>
     </div>  
     <div class="w-30-ns flex flex-column items-stretch justify-around bg-white ph2 tc pb3 mb3">
       <a href="https://www.paypal.com/donate/?hosted_button_id=CGL6E4ZY9KSKE" class="flex items-stretch justify-center br3 pa2 hover-bg-near-white bg-white"><img class="mw4" src="/images/202505/pp_h_rgb.png" alt="PayPal" /></a>
-      <p class="b f6 dark-blue">2~3% in fees<br>1~2 days</p>
+      <p class="b f6 dark-blue flex flex-column justify-end">2~3% in fees<br>1~2 days</p>
     </div>
 </div>
 
