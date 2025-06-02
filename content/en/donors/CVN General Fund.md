@@ -103,7 +103,7 @@ tags = [""]
 
 <!-- Mail check -->
 <div id="MailCheck" class="modal ba0 br3 ph4 pv2 bg-white f5">
-<button onclick="document.getElementById('MailCheck').style.display = document.getElementById('FullScreenOverlay').style.display = 'none';" style="position:absolute; top:1rem; right:1rem;">&times;</button>
+<button onclick="document.getElementById('MailCheck').style.display = 'none'; document.getElementById('FullScreenOverlay').style.display = 'none';" style="position:absolute; top:1rem; right:1rem;">&times;</button>
   <p>
     This donation will accepted into our <span class="b">Unrestricted General Fund</span>.<br>
     We incur no fees to accept checks, however it takes around 1-2 weeks to process.
@@ -129,9 +129,9 @@ tags = [""]
   const MailCheckModal = document.getElementById ("MailCheck");
   window.onclick = function(event) {
     if (event.target === FullScreenOverlay) {
+      FullScreenOverlay.style.display = "none";
       MailCheckModal.style.display = "none";
       DafModal.style.display = "none";
-      FullScreenOverlay.style.display = "none";
     }
   }
 </script>
