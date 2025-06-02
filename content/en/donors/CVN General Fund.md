@@ -81,7 +81,7 @@ tags = [""]
   background-color: rgba(0, 0, 0, .6);}
 </style>
 <script type ="text/javascript">_dafdirect_hide_button="no"; _dafdirect_settings="333041229_2000_09d23139-57e8-4cf5-b667-e4d0b3f93876";</script>
-<script type = "text/javascript" src = "http://dafdirect.org/ddirect/dafdirect4.js"></script>
+<script type = "text/javascript" src = "http://dafdirect.org/ddirect/dafdirect4.js" async></script>
 
 <!-- css -->
 <style>
@@ -124,7 +124,7 @@ tags = [""]
 </div>
 
 <script>
-  const DafModal = document.getElementById ("dafdirectdiv");
+  var DafModal = document.getElementById ("dafdirectdiv");
   const FullScreenOverlay = document.getElementById ("FullScreenOverlay");
   const MailCheckModal = document.getElementById ("MailCheck");
   window.onclick = function(event) {
