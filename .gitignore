@@ -39,4 +39,4 @@ Desktop.ini
 hugo_stats.json
 
 # JB temp ignores
-layouts/partials/func
+jb-ignore/

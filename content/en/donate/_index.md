@@ -20,7 +20,7 @@ tags = [""]
 <div class="cf">
   <div class="f6 tc pl3 mw4 dn db-ns fr">
       Open on mobile
-      <image src='{{<fixURL "/images/202505/CVN Donate General Fund QR.png">}}' alt="QR code for mobile"/>
+      <image src='{{<fixURL "/images/202505/CVN Donate QR.png">}}' alt="CVN Donate QR code"/>
   </div>
   <p>We’re grateful for your support!</p>
   <p>You can donate to our <span class="green">Unrestricted General Fund</span> using any of the convenient methods below. If you would like to make a <span class="blue">Restricted Donation</span> please <a class="link blue" href='{{<fixURL "/contact" >}}'>call</a> or <a href="mailto:donations@caringvalley.org" class="link blue">email</a> to discuss your specific requirements.</p>
@@ -36,8 +36,8 @@ tags = [""]
 <div class="flex justify-around justify-between-ns items-stretch flex-wrap">
 <!--more-->
     <div class="w-30-ns flex flex-column item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
-      <a href="http6://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
-        <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
+      <a href="https://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
+        <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="ApplePay-GooglePays" />
       </a>
       <p class="b f6 dark-blue mv0 flex flex-column justify-end">No fees<br>5~10 min<br>Less than $1000</p>
     </div>
@@ -49,7 +49,7 @@ tags = [""]
         PayPal&nbsp;Giving&nbsp;Fund
       </a>
       <a class="link flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4">
-        DAF&nbsp;Direct
+        Donor Advised Fund
       </a>
       <!-- <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.location='https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4'">
         DAF&nbsp;Direct
@@ -75,4 +75,6 @@ tags = [""]
 <script type = "text/javascript">_dafdirect_settings="333041229_2000_09d23139-57e8-4cf5-b667-e4d0b3f93876"</script>
 <script type = "text/javascript" src = "https://www.dafdirect.org/ddirect/dafdirect4.js"></script> -->
 
-
+<!-- Dafwidget
+<script>var _msdaf_id= '6fece53558b038'</script>
+<script src='https://app.dafwidget.com/api/js/source.js'></script> -->
