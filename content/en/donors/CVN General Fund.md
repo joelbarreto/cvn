@@ -46,7 +46,7 @@ tags = [""]
       <!-- <a class="link flex items-stretch justify-center ba b--white br3 ph2 hover-gray bg-light-orange white" href="https://www.zeffy.com/ticketing/cvn-2025-inner-circle">
         Mail Check
       </a> -->
-      <button class="link flex items-stretch justify-center ba b--white br3 ph2 hover-gray bg-light-orange white" onclick="document.getElementById('FullScreenOverlay').style.display = document.getElementById('MailCheck').style.display = 'block';">
+      <button class="link flex items-stretch justify-center ba b--white br3 ph2 hover-gray bg-light-orange white" onclick="document.getElementById('FullScreenOverlay').style.display = 'block'; document.getElementById('MailCheck').style.display = 'block';">
         Mail Check
       </button>
        <a class="link flex items-stretch justify-center br3 ph2 hover-gold bg-dark-blue white" href="https://paypal.com/us/fundraiser/charity/5519072">
@@ -55,7 +55,7 @@ tags = [""]
       <!-- <a class="link flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" href="https://www.dafdirect.org/DAFDirect/daflink?_dafdirect_settings=MzMzMDQxMjI5XzIxMTFfYzI1MmZhMWUtOGM1Mi00OTg5LWIwYTItZDAxODBiNDcyNTM4&designatedText=R2VuZXJhbCBGdW5k&amountValue=MjY4">
         DAF&nbsp;Direct
       </a> -->
-      <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.getElementById('FullScreenOverlay').style.display = document.getElementById('dafdirectdiv').style.display = 'block';">
+      <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.getElementById('FullScreenOverlay').style.display = 'block'; document.getElementById('dafdirectdiv').style.display = 'block';">
         Donor Advised Fund
       </button>
       <p class="b f6 dark-blue mv0 flex flex-column justify-end">No Fees<br>2~4 weeks</p>
@@ -129,7 +129,9 @@ tags = [""]
   const MailCheckModal = document.getElementById ("MailCheck");
   window.onclick = function(event) {
     if (event.target === FullScreenOverlay) {
-      MailCheckModal.style.display = DafModal.style.display = FullScreenOverlay.style.display = "none";
+      MailCheckModal.style.display = "none";
+      DafModal.style.display = "none";
+      FullScreenOverlay.style.display = "none";
     }
   }
 </script>
