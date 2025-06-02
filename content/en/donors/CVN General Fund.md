@@ -61,7 +61,7 @@ tags = [""]
       <p class="b f6 dark-blue mv0 flex flex-column justify-end">No Fees<br>2~4 weeks</p>
     </div>  
     <div class="w-30-ns flex flex-column items-stretch justify-around bg-white ph2 tc pb3 mb3">
-      <a href="https://www.paypal.com/donate/?hosted_button_id=CGL6E4ZY9KSKE" class="flex items-stretch justify-center br3 pa2 hover-bg-near-white bg-white"><img class="mw4" src="/images/202505/pp_h_rgb.png" alt="PayPal" /></a>
+      <a href="https://www.paypal.com/donate/?hosted_button_id=CGL6E4ZY9KSKE" class="flex items-stretch justify-center br3 pa2 hover-bg-near-white bg-white"><img class="mw4" src='{{< fixURL "/images/202505/pp_h_rgb.png" >}}' alt="PayPal" /></a>
       <p class="b f6 dark-blue flex flex-column justify-end">2~3% in fees<br>1~2 days</p>
     </div>
 </div>
