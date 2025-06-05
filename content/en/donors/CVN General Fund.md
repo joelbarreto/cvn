@@ -29,7 +29,7 @@ tags = [""]
 </div>
 <div class="flex justify-around items-stretch bg-white mb3 pv3">
       <button class="w-60 ba b--white br3 ph2 pv1 hover-gold bg-dark-green white"
-        zeffy-form-link="https://www.zeffy.com/embed/donation-form/donate-to-make-a-difference-14280?modal=true">
+        zeffy-form-link="https://www.zeffy.com/embed/donation-form/cvn-general-fund?modal=true">
         Credit&nbsp;Card OR Bank&nbsp;(eCheck)
       </button>
       <p class="b f6 dark-blue">Preferred<br>No fees</p>
@@ -37,7 +37,7 @@ tags = [""]
 <!--more-->
 <div class="flex justify-around justify-between-ns items-stretch flex-wrap">
     <div class="w-30-ns flex flex-column item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
-      <a href="https://www.zeffy.com/donation-form/donate-to-make-a-difference-14280" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
+      <a href="https://www.zeffy.com/donation-form/cvn-general-fund" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
         <img class="mw4" src='{{<fixURL "/images/202505/ApplePay-GooglePay.svg">}}' alt="Apple Pay" />
       </a>
       <p class="b f6 dark-blue mv0 flex flex-column justify-end">No fees<br>5~10 min<br>Less than $1000</p>
