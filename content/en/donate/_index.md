@@ -20,8 +20,8 @@ tags = [""]
 
 <div class="cf">
   <div class="f6 tc pl3 mw4 dn db-ns fr">
-      Open on mobile
-      <image src='{{<fixURL "/images/202505/CVN Donate General Fund QR.png">}}' alt="QR code for mobile"/>
+      Share QR Code
+      <image src='{{<fixURL "/images/202506/CVN General Fund.png">}}' alt="QR code for mobile"/>
   </div>
   <p>We’re grateful for your support!</p>
   <p>You can donate to our <span class="green">Unrestricted General Fund</span> using any of the convenient methods below. If you would like to make a <span class="blue">Restricted Donation</span> please <a class="link blue" href='{{<fixURL "/contact" >}}'>call</a> or <a href="mailto:donations@caringvalley.org" class="link blue">email</a> to discuss your specific requirements.</p>
