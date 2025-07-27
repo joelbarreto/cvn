@@ -58,6 +58,9 @@ tags = [""]
       <button class="flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" onclick="document.getElementById('FullScreenOverlay').style.display = 'block'; document.getElementById('dafdirectdiv').style.display = 'block';">
         Donor Advised Fund
       </button>
+      <a class="link flex items-stretch justify-center br3 ph2 hover-gold bg-purple white" href="https://www.every.org/caring-valley-nonprofit?require_share_info=true&suggestedAmounts=26%2C68%2C268%2C862&frequency=ONCE&method=daf%2Cstocks&min_value=25&utm_campaign=donate-link#/donate">
+        DAF or Stocks
+      </a>
       <p class="b f6 dark-blue mv0 flex flex-column justify-end">No Fees<br>2~4 weeks</p>
     </div>  
     <div class="w-30-ns flex flex-column items-stretch justify-around bg-white ph2 tc pb3 mb3">
@@ -65,6 +68,8 @@ tags = [""]
       <p class="b f6 dark-blue flex flex-column justify-end">2~3% in fees<br>1~2 days</p>
     </div>
 </div>
+
+<script async defer src="https://embeds.every.org/0.4/button.js"></script>
 
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 <script src="https://www.paypal.com/sdk/js?client-id=BAAZUNwskl8tOC7pll96z540-X1nWh7o9xcDbS5XMIQkv0Y636awx6JyxyHd_It-OpgBkNaJSD5VCsugrg&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
