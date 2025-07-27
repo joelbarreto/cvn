@@ -14,7 +14,6 @@
           {{ $pageURL := .RelPermalink }}
           {{ with .Params.featured_image_body }}
           <a class="dib tc br4" href="{{$pageURL}}">
-            {{ $img := trim . "/" | relURL }}
             <img src="{{ trim . "/" | relURL }}" class="br--top br4">
           </a>
           {{ end }}
