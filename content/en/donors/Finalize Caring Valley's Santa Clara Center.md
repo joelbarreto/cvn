@@ -22,7 +22,9 @@ Help Us Put the Finishing Touches on Caring Valley’s Santa Clara Center
 
 We're excited to share that Caring Valley received a generous donation of office cabinets and storage units from the San Jose office of a national bank. These additions will directly benefit our community programs.
 
-The only cost? A $455 moving fee to transport the items from Newark to Santa Clara.
+<span class="dib purple b">The only cost? A $455 moving fee to transport the items from Newark to Santa Clara.</span>
+
+<!--more-->
 
 We’re asking our supporters to help us cross this final hurdle. Your donation—big or small—will go toward creating a safe and welcoming space focused on alleviating suffering through kindness and human connection.
 
