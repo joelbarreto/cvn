@@ -30,7 +30,7 @@ We're excited to share that Caring Valley received a generous donation of office
 
 We’re asking our supporters to help us cross this final hurdle. Your donation—big or small—will go toward creating a safe and welcoming space focused on alleviating suffering through kindness and human connection.
 
-<span class="dib green b tc">Donate today and make a lasting impact.</span>
+<div class="dib green b tc">Donate today and make a lasting impact.</div>
 
 <div class="tc">
   <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
