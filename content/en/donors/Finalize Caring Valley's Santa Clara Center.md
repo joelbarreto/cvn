@@ -18,9 +18,9 @@ tags = ["Santa Clara"]
 +++
 <script src="https://zeffy-scripts.s3.ca-central-1.amazonaws.com/embed-form-script.min.js"></script>
 
-**Puting the Finishing Touches on Caring Valley’s Santa Clara Center**
+**Putting the Finishing Touches on Caring Valley’s Santa Clara Center**
 
-<div style="position:relative;overflow:hidden;width:100%;padding-top:120px;"><iframe title='Donation form powered by Zeffy' style='position: absolute; border: 0; top:0;left:0;bottom:0;right:0;width:100%;height:120px' src='https://www.zeffy.com/embed/thermometer/help-cvn-meet-moving-expenses'  allowTransparency="true"></iframe></div>
+<div style="position:relative;overflow:hidden;width:100%;padding-top:120px;"><iframe title='Donation form powered by Zeffy' style='position: absolute; border: 0; top:0;left:0;bottom:0;right:0;width:100%;height:90px' src='https://www.zeffy.com/embed/thermometer/help-cvn-meet-moving-expenses'  allowTransparency="true"></iframe></div>
 
 We're excited to share that Caring Valley received a generous donation of office cabinets and storage units from the San Jose office of a national bank. These additions will directly benefit our community programs.
 
@@ -30,7 +30,7 @@ We're excited to share that Caring Valley received a generous donation of office
 
 We’re asking our supporters to help us cross this final hurdle. Your donation—big or small—will go toward creating a safe and welcoming space focused on alleviating suffering through kindness and human connection.
 
-<span class="dib green b">Donate today and make a lasting impact.</span>
+<span class="dib green b tc">Donate today and make a lasting impact.</span>
 
 <div class="tc">
   <button class="br3 ph2 pv1 hover-gold bg-dark-green white"
