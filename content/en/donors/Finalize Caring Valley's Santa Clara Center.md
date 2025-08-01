@@ -35,7 +35,7 @@ We're excited to share that Caring Valley received a generous donation of office
       zeffy-form-link='https://www.zeffy.com/embed/donation-form/help-cvn-meet-moving-expenses?modal=true'>
       Credit&nbsp;Card or Bank(ACH)
   </button>
-  <button class="br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/embed/donation-form/help-cvn-meet-moving-expenses'">Apple&nbsp;Pay or Google&nbsp;Pay</button>
+  <button class="br3 ph2 pv1 ma2 hover-gold bg-dark-blue white" onclick="document.location='https://www.zeffy.com/donation-form/help-cvn-meet-moving-expenses'">Apple&nbsp;Pay or Google&nbsp;Pay</button>
 </div>
 <div class="tc">
   <p>OR<br>Scan to checkout</P>
