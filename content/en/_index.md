@@ -30,3 +30,9 @@ menu_text_color = 'gold'
 In our fast-paced world, taking the time to care for one another is a powerful act. Our organization is committed to reaching out to the elderly and lonely, providing services that bring comfort, joy, and hope. We invite you to be a part of this journey, as we continue to build a community where everyone feels valued and loved.
 
 *Caring Valley has just started its mission*
+
+<div>
+  <a class="br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link" href='https://www.zeffy.com/en-US/newsletter-form/join-cvns-interest-group'>Join our Interest Group</a>
+  <span class="dib ph2">OR</span>
+  <a class="br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link" href='{{<fixURL "/timeline">}}'>Follow our Progress here</a>
+</div>
