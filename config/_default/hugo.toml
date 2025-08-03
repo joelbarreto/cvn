@@ -33,6 +33,8 @@ theme = 'ananke'
   body_classes = "sans-serif bg-light-gray near-black"
   show_reading_time = true
   omit_header_text = true
+  menu_text_color = 'white'
+  menu_hover_color = 'gold'
 
 [pagination]
   pagerSize = 9 # this is set low for demonstrating with dummy content. Set to a higher number

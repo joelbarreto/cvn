@@ -13,11 +13,11 @@ layout = ''
 button_text = 'Follow our Progress here'
 button_url = '/timeline'
 
-text_color = 'white'
-menu_text_color = 'gold'
+text_color = 'near-white'
 
 [cascade]
   featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+  # featured_image_body = "/images/202508/el capitan sketch colored.webp"
   featured_image_body = "images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   # featured_image_body = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
@@ -33,6 +33,6 @@ In our fast-paced world, taking the time to care for one another is a powerful a
 
 <div>
   <a class="dib br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/join-cvns-interest-group'>Join our Interest Group</a>
-  <span class="dib ph2">OR</span>
+  <span class="dib ph3">AND</span>
   <a class="dib mt2 br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='{{<fixURL "/timeline">}}'>Follow our Progress</a>
 </div>
