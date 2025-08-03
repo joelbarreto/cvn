@@ -26,7 +26,7 @@ text_color = 'near-white'
   # featured_image_body = "/images/watercolor-of-a-valley-in-only-light-blue.webp"
 
 +++
-
+<img src='{{<fixURL "/images/logo/cvn2.png">}}' style="width:15%" alt="CVN Logo Round with black bacground">
 In our fast-paced world, taking the time to care for one another is a powerful act. Our organization is committed to reaching out to the elderly and lonely, providing services that bring comfort, joy, and hope. We invite you to be a part of this journey, as we continue to build a community where everyone feels valued and loved.
 
 *Caring Valley has just started its mission*
@@ -36,3 +36,4 @@ In our fast-paced world, taking the time to care for one another is a powerful a
   <span class="dib ph3">AND</span>
   <a class="dib mt2 br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='{{<fixURL "/timeline">}}'>Follow our Progress</a>
 </div>
+
