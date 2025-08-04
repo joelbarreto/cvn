@@ -16,9 +16,9 @@ button_url = '/timeline'
 text_color = 'near-white'
 
 [cascade]
-  featured_image = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+  featured_image = "202503/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   # featured_image_body = "/images/202508/el capitan sketch colored.webp"
-  featured_image_body = "images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
+  featured_image_body = "202503/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
   # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   # featured_image_body = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   # featured_image = "/images/fabrizio-conti-K94HiVOKjZE-unsplash-1.webp"

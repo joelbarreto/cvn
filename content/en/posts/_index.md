@@ -11,9 +11,9 @@ layout = ''
 
 text_color = ''
 [cascade]
-  featured_image = "/images/kc-welch-Rm1yvSRVTRE-unsplash.webp"
-  background_image_body = "/images/kc-welch-Rm1yvSRVTRE-unsplash-1.webp"
-  featured_image_body = "/images/max-pruvost-OJ02cQHePds-unsplash.webp"
+  featured_image = "202503/kc-welch-Rm1yvSRVTRE-unsplash.webp"
+  background_image_body = "202503/kc-welch-Rm1yvSRVTRE-unsplash-1.webp"
+  featured_image_body = "202503/max-pruvost-OJ02cQHePds-unsplash.webp"
   cover_dimming_class = "bg-black-10"
 
 [menus.main]

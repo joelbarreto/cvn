@@ -16,8 +16,8 @@ read_more_copy = "Search Upcoming Events"
 # featured_image_body = "/images/fabrizio-conti-K94HiVOKjZE-unsplash.webp"
 # featured_image = "/images/pencil-sketch-of-Santa-Clara-Valley-1.webp"
 # featured_image_body = "/images/pencil-sketch-of-Santa-Clara-Valley-3.webp"
-featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
-featured_image_body = "/images/202505/volunteer2.png"
+featured_image = "202503/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+featured_image_body = "202505/volunteer2.png"
 
 
 type = 'cvn'

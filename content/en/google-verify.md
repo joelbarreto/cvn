@@ -9,8 +9,8 @@ title = 'Google Sub Domain verification'
 omit_header_text =   true
 show_reading_time = false
 
-featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
-featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+featured_image = "202503/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
+featured_image_body = "202503/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
 
 
 type = 'cvn'

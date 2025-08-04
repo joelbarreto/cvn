@@ -12,8 +12,8 @@ show_reading_time = false
 # featured_image = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
 # featured_image_body = "/images/black-and-white-sketch-of-Silicon-Valley-San-Jose.webp"
 
-featured_image = "/images/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
-#featured_image_body = "/images/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
+featured_image = "202503/cedric-letsch-RRCGUnUC-FU-unsplash.webp"
+#featured_image_body = "202503/cedric-letsch-RRCGUnUC-FU-unsplash-1.webp"
 featured_image_body = ""
 cover_dimming_class = "bg-white-10"
 

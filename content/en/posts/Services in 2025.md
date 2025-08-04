@@ -8,8 +8,10 @@ theme_version = "2.8.2"
 
 type = 'cvn'
 layout = ''
+weight = 1
 
-featured_image_body = "/images/202507/Gemini Services for Elders.png"
+# featured_image_body = "/images/202507/Gemini Services for Elders.png"
+featured_image_body = "202507/Gemini Services for Elders.png"
 
 +++
 

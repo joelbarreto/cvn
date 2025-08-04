@@ -4,8 +4,8 @@ draft = false
 title = "Founder's Message"
 description = "Everyone has a right to Happiness"
 author = "Joel Barreto"
-featured_image = "/images/calaveras.webp"
-featured_image_body = "/images/calaveras-1.webp"
+featured_image = "/202503/calaveras.webp"
+featured_image_body = "/202503/calaveras-1.webp"
 
 type = 'cvn'
 layout = ''

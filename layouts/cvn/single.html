@@ -55,12 +55,11 @@
         {{ end }}
       </div>
       <div class="db-ns dn w-25">
-        {{if $img := .Params.featured_image_body}}
-        {{ $img := trim $img "/" | relURL }}
-        <img src="{{$img}}" class="fr">
+        {{ with resources.Get .Params.featured_image_body }}
+          <img src="{{ .RelPermalink }}" class="fr">
+        {{ end }}
       </div>
-      {{end}}
-    </header>
+      </header>
     
     <div class="w-100 nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "sans-serif" }} f4 {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} "
          style="background-image: none;">

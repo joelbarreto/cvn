@@ -9,9 +9,9 @@
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range first 2 .Paginator.Pages }}
         <div class="relative w-100 w-40-ns mb4 bg-white-90 br4">
-          {{ with .Params.featured_image_body }}
+          {{ with resources.Get (trim .Params.featured_image_body "/") }}
           <span class="dib tc br4">
-            <img src="{{ trim . "/" | relURL }}" class="br--top br4">
+            <img src="{{ .RelPermalink }}" class="br--top br4">
           </span>
           {{ end }}
           {{ .Render "summary" }}

@@ -6,7 +6,7 @@ description = "Why We Chose TechCU as Our Nonprofit Banking Partner"
 omit_header_text = false
 theme_version = "2.8.2"
 
-featured_image_body = "/images/TCU_rgb_grad_tag_med.png"
+featured_image_body = "202504/TCU_rgb_grad_tag_med.png"
 
 type = 'cvn'
 layout = ''
