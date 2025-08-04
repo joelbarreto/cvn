@@ -16,7 +16,7 @@
       {{/* list pages where expiryDate is not set */}}
       {{ $unexpiredPages := where .RegularPages "ExpiryDate.UTC.IsZero" "eq" true }}
       {{/* list pages expired in the past 30 days */}}
-      {{ $recentlyExpiredPages := where  .RegularPages "ExpiryDate.UTC" "ge" (time.Now.AddDate 0 0 -90).UTC }}
+      {{ $recentlyExpiredPages := where  .RegularPages "ExpiryDate.UTC" "ge" (time.Now.AddDate 0 0 -60).UTC }}
       {{ $paginator := .Paginate (union $unexpiredPages $recentlyExpiredPages) }}
       {{ range $paginator.Pages}}
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
