@@ -7,9 +7,9 @@ show_reading_time = false
 omit_header_text = false
 read_more_copy = "Other Payment Methods"
 
-featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
-featured_image_body = "/images/202507/CVN General Donation with Flowers.webp"
-#background_image_body = "/images/cvn2.jpg"
+featured_image = "202503/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
+featured_image_body = "202507/CVN General Donation with Flowers.webp"
+# background_image_body = "/images/cvn2.jpg"
 # background_color_class = "bg-light-blue"
 # body_classes = "Montserrat"
 

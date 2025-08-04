@@ -8,8 +8,8 @@ show_reading_time = false
 omit_header_text = false
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
-featured_image_body = "/images/202505/IMG_3226.webp"
-background_image_body = "images/202505/IMG_3226.webp"
+featured_image_body = "202505/IMG_3226.webp"
+background_image_body = "202505/IMG_3226.webp"
 # background_color_class = "bg-light-blue"
 
 type = 'cvn'

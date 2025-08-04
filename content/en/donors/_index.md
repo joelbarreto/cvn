@@ -17,7 +17,7 @@ summaryLength = 0
 
 [cascade]
 # featured_image = "/images/meric-dagli-nShmSIu1bCo-unsplash.webp"
-  featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
+  featured_image = "202503/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   #featured_image_body = ""
   #background_image_body = ""
   # background_color_class = "bg-light-green"

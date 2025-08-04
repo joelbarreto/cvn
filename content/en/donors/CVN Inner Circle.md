@@ -9,8 +9,8 @@ read_more_copy = "Join Now"
 # weight = 1
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
-featured_image_body = "/images/why286.webp"
-background_image_body = "/images/why286.webp"
+featured_image_body = "/202504/why286.webp"
+background_image_body = "/202504/why286.webp"
 # background_color_class = "bg-light-blue"
 
 type = 'cvn'

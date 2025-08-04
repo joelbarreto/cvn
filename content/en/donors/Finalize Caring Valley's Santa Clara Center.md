@@ -9,8 +9,8 @@ omit_header_text = false
 read_more_copy = "Donate Now"
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
-featured_image_body = "images/202507/IMG_3660.jpeg"
-background_image_body = "images/202507/IMG_3660.jpeg"
+featured_image_body = "202507/IMG_3660.jpeg"
+background_image_body = "202507/IMG_3660.jpeg"
 # background_color_class = "bg-light-blue"
 
 type = 'cvn'

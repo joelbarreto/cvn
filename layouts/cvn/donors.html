@@ -20,9 +20,12 @@
       {{ $paginator := .Paginate (union $unexpiredPages $recentlyExpiredPages) }}
       {{ range $paginator.Pages}}
         <div class="relative w-100 w-30-l mb4 bg-white-90 br4">
-          <a class="dib tc br4" href="{{ .RelPermalink }}">
-             <img src="{{ trim .Params.featured_image_body "/" | relURL }}" class="br--top br4">
+          {{ $pageURL := .RelPermalink }}
+          {{ with resources.Get (trim .Params.featured_image_body "/") }}
+          <a class="dib tc br4" href="{{$pageURL}}">
+            <img src="{{ .RelPermalink }}" class="br--top br4">
           </a>
+          {{ end }}
           {{ .Render "summary" }}
         </div>
       {{ end }}
