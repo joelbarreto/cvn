@@ -1,6 +1,6 @@
 +++
 date = 2025-07-30
-expiryDate = 2025-08-30
+expiryDate = 2025-08-04
 draft = false
 title = "Finalize Caring Valley's Santa Clara Center"
 description = "Help us raise the funds needed"
