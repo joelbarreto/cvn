@@ -1,0 +1,7 @@
+{{ $filePath := .Get "path" }}
+{{ $page := site.GetPage $filePath }}
+{{ if $page }}
+  {{ $page.RelPermalink }}
+{{ else }}
+  URL not found for path: {{ $filePath }}
+{{ end }}
