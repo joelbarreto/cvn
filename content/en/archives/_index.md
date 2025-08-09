@@ -16,7 +16,7 @@ summaryLength = 50
   weight = 3
 
 [cascade]
-  featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
+  featured_image = "202503/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
   #featured_image_body = ""
   #background_image_body = ""
   # background_color_class = "bg-light-green"
