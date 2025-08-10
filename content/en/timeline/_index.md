@@ -5,7 +5,7 @@ description = "Key Events from our History"
 theme_version = "2.8.2"
 
 type = 'cvn'
-layout = ''
+layout = 'timeline'
 omit_header_text = false
 
 [cascade]
