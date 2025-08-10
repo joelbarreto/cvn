@@ -1,7 +1,7 @@
 +++
 date = 2025-04-16
 draft = false
-title = 'Nonprofit HQ Location Finalized'
+title = 'Nonprofit HQ Location'
 summary = 'Corporate sponsor steps forward for HQ location'
 type = 'cvn'
 omit_header_text = true

@@ -1,7 +1,7 @@
 +++
 date = 2025-06-18
 draft = false
-title = 'South Bay Center Selected'
+title = 'South Bay Center'
 summary = 'Great location in Santa Clara, CA selected for Main Community Center'
 type = 'cvn'
 omit_header_text = true
