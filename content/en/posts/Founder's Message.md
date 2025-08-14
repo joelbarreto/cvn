@@ -13,7 +13,7 @@ tags = ["founders"]
 +++
 
 One day, as I was thinking about what makes people happy, it struck me that people would be happy if they had all their necessities met. <span class="dark-blue f4">So, I asked an AI agent:</span>
-> *what are the basic necesities for humans?*
+> *what are the basic necessities for humans?*
 
 <span class="dark-blue f4">This is what it told me:</span><!--more-->
 
