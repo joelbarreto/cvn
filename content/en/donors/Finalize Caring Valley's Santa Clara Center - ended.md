@@ -7,6 +7,7 @@ description = "Help us raise the funds needed"
 show_reading_time = false
 omit_header_text = false
 read_more_copy = "Donate Now"
+weight = 1
 
 # featured_image = "/images/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
 featured_image_body = "202507/IMG_3660.jpeg"

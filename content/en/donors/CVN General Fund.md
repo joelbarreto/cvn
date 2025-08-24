@@ -6,6 +6,7 @@ description = "Donate to CVN General Fund"
 show_reading_time = false
 omit_header_text = false
 read_more_copy = "Other Payment Methods"
+weight = 2
 
 featured_image = "202503/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
 featured_image_body = "202507/CVN General Donation with Flowers.webp"
