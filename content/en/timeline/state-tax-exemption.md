@@ -1,6 +1,6 @@
 +++
 date = 2026-01-28
-draft = true
+draft = false
 title ='CA State Tax Exemption'
 summary = 'California State Tax Exemption approved'
 type = 'cvn'
