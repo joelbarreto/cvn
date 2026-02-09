@@ -5,7 +5,8 @@ title = "General Donation "
 description = "Donate to CVN General Fund"
 show_reading_time = false
 omit_header_text = false
-read_more_copy = "Other Payment Methods"
+# read_more_copy = "Other Payment Methods"
+read_more_copy = "Make a General Donation"
 weight = 2
 
 featured_image = "202503/alex-donnachie-tvg2AeJHfbM-unsplash.webp"
@@ -28,6 +29,7 @@ tags = [""]
   <p>You can donate to our <span class="green">Unrestricted General Fund</span> using any of the convenient methods below. If you would like to make a <span class="blue">Restricted Donation</span> please <a class="link blue" href='{{<fixURL "/contact" >}}'>call</a> or <a href="mailto:donations@caringvalley.org" class="link blue">email</a> to discuss your specific requirements.</p>
   <p>Please also vist our <a class="link blue" href='{{<fixURL "/donors" >}}'>Donor site</a> to see our current needs.</p>
 </div>
+<!--more-->
 <div class="flex justify-around items-stretch bg-white mb3 pv3">
       <button class="w-60 ba b--white br3 ph2 pv1 hover-gold bg-dark-green white"
         zeffy-form-link="https://www.zeffy.com/embed/donation-form/cvn-general-fund?modal=true">
@@ -35,7 +37,6 @@ tags = [""]
       </button>
       <p class="b f6 dark-blue">Preferred<br>No fees</p>
 </div>
-<!--more-->
 <div class="flex justify-around justify-between-ns items-stretch flex-wrap">
     <div class="w-30-ns flex flex-column item-center justify-around bg-white ph2 tc pb3 mb3" style="min-height:175px">
       <a href="https://www.zeffy.com/donation-form/cvn-general-fund" class="flex item-center justify-center br3 pv1 ph2 hover-bg-near-white bg-white">
