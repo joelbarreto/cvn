@@ -1,9 +1,9 @@
 +++
 draft = false
-date = '2026-02-14'
+date = '2026-02-14 12:00:00'
 title = 'Wisdom in STEM'
-description = "Local community support"
-theme_version = "2.8.2"
+description = "Wisdom In STEM Program guide"
+
 
 type = 'cvn'
 layout = ''
