@@ -4,12 +4,10 @@ date = '2026-02-14 12:00:00'
 title = 'Wisdom in STEM'
 description = "Wisdom In STEM Program guide"
 
-
 type = 'cvn'
 layout = ''
 omit_header_text = true
-featured_image_body = "/202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
-
+featured_image_body = "202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
 +++
 
 
@@ -17,13 +15,13 @@ featured_image_body = "/202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
 
 ### *Connecting Experienced Adults with the Next Generation of Innovators*
 
-***
+---
 
 ## OUR MISSION
 
 At Caring Valley, our mission is to reduce social isolation among the retired community by providing structured opportunities for contribution. We transform professional perspectives and life experiences into social impact, ensuring our seniors remain vital, connected, and valued architects of community benefit.
 
-***
+---
 
 # ABOUT THE PROGRAM
 
@@ -43,7 +41,7 @@ Our volunteers serve as:
 
 Whether for one day or several months, every volunteer helps build a bridge of learning, curiosity, and connection.
 
-***
+---
 
 # 👥 **WHO CAN JOIN?**
 
@@ -69,7 +67,7 @@ Middle school and high school students who need:
 *   Guidance for STEM projects
 *   Inspiration from real‑world professionals
 
-***
+---
 
 # **WHY THIS PROGRAM MATTERS**
 
@@ -94,7 +92,7 @@ Middle school and high school students who need:
 *   Enriched STEM learning environment
 *   Community collaboration
 
-***
+---
 
 # HOW IT WORKS
 
@@ -125,7 +123,7 @@ You choose:
 
 We check in on volunteer well‑being and student experiences — because connection and happiness matter.
 
-***
+---
 
 # PROGRAM OPTIONS
 
@@ -154,7 +152,7 @@ Hands‑on monthly activities:
 *   Electronics
 *   Engineering design challenges
 
-***
+---
 
 # TESTIMONIALS
 
@@ -164,7 +162,7 @@ Hands‑on monthly activities:
 **“My mentor helped me believe I could be a scientist.”**  
 — *Sofia, 8th grade student*
 
-***
+---
 
 # 📞 **JOIN US**
 
@@ -177,7 +175,7 @@ Help our community grow happier and more connected.
 **Website:** [www.caringvalley.org](http://www.caringvalley.org)  
 **Phone:** (510) 576‑7116
 
-***
+---
 
 # TOGETHER, WE CREATE A HAPPIER, CONNECTED COMMUNITY.
 

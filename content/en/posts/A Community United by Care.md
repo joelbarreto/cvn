@@ -8,7 +8,7 @@ theme_version = "2.8.2"
 type = 'cvn'
 layout = ''
 omit_header_text = true
-featured_image_body = "/202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
+featured_image_body = "202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
 
 +++
 
