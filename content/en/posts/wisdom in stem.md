@@ -155,7 +155,7 @@ Hands‑on monthly activities:
 — *Sofia, 8th grade student*
 
 ---
-### 📞 JOIN US <span class="orange">Become a Volunteer</span>
+### <a class="dib br3 ph2 pv1 hover-white bg-light-orange link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/cvn-registration'> JOIN Caring Valley</a> and become a Volunteer for this progam
 
 Share your experience. Inspire young minds.  
 Help our community grow happier and more connected.
