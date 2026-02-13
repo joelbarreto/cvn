@@ -1,7 +1,9 @@
 +++
 draft = false
 date = '2025-02-18 10:56:07'
-title = 'Services in 2025'
+expiryDate = '2027-01-21'
+title = 'Services in 2026'
+
 description = "Local community support"
 omit_header_text = false
 theme_version = "2.8.2"

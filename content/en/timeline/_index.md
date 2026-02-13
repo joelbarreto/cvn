@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = 'Timeline'
 description = "Key Events from our History"
 theme_version = "2.8.2"
@@ -14,8 +14,8 @@ background_image_body = "/202305/black-and-white-sketch-of-Silicon-Valley-San-Jo
 # featured_image_body = "/images/rodrigo-soares-8BFWBUkSqQo-unsplash.webp"
 
 [menus.main]
-  name = 'Timeline'
-  weight = 1
+ name = 'Timeline'
+ weight = 1
 
 +++
 

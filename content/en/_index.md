@@ -31,9 +31,7 @@ In a world that often moves too fast, we believe meaningful change begins with p
 
 *Caring Valley has just started its mission*
 
-<div>
-  <a class="dib br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/join-cvns-interest-group'>Join our Interest Group</a>
-  <span class="dib ph3">AND</span>
-  <a class="dib mt2 br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='{{<fixURL "/timeline">}}'>Follow our Progress</a>
+<div class = "tc">
+  <a class="dib br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/cvn-registration'>JOIN Caring Valley</a>
 </div>
 

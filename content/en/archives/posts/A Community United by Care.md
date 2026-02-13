@@ -1,6 +1,7 @@
 +++
 draft = false
-date = '2025-02-18 10:56:07'
+date = 2025-02-18 10:56:07
+expiryDate = 2026-02-11
 title = 'A Community United by Care'
 description = "Local community support"
 theme_version = "2.8.2"

@@ -1,5 +1,5 @@
 +++
-date = '2025-04-26 13:47:35'
+date = 2025-04-26 13:47:35
 draft = false
 title = "General Donation "
 description = "Donate to CVN General Fund"

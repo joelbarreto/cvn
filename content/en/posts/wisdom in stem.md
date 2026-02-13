@@ -21,7 +21,7 @@ At Caring Valley, our mission is to reduce social isolation among the retired co
 ---
 
 ### ABOUT THE PROGRAM
-
+<!--more-->   
 *Wisdom in STEM* is a community initiative that brings together **adults aged 50+ with technical or scientific backgrounds** and **middle & high school students** exploring hands‑on science.
 
 Our volunteers serve as:

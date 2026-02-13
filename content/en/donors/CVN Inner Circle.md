@@ -1,5 +1,5 @@
 +++
-date = '2025-04-09 05:11:54'
+date = 2025-04-09 05:11:54
 draft = false
 title = "Join the CVN Inner Circle"
 description = "Donate $286 to Caring Valley"
