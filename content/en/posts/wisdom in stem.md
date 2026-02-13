@@ -7,13 +7,12 @@ description = "Program guide"
 type = 'cvn'
 layout = ''
 omit_header_text = true
-featured_image_body = "202503/San-Francisco-South-Bay-pencil-sketch-1.webp"
+featured_image_body = "202602/Gemini_Generated_Image_w3c6q3w3c6q3w3c6.webp"
 +++
 
 
 ### <span class="green">Connecting Experienced Adults with the Next Generation of Innovators</psan>
 
----
 
 ### OUR MISSION
 
