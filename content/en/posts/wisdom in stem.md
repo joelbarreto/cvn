@@ -1,12 +1,12 @@
 +++
 draft = false
-date = "2026-02-12"
+date = 2026-02-12
 title = "Wisdom in STEM"
 description = "Program guide"
 
 type = 'cvn'
 layout = ''
-omit_header_text = true
+omit_header_text = false
 featured_image_body = "202602/Gemini_Generated_Image_w3c6q3w3c6q3w3c6.webp"
 +++
 
