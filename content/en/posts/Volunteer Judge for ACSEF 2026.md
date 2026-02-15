@@ -11,7 +11,6 @@ featured_image_body = "202602/volunteer-judge-acsef2026.webp"
 +++
 
 
-
 ### **Make a Double Impact: Inspire Students &amp; Fund the Fair!**
 
 Caring Valley's <a class="b link" href='{{< relref "wisdom-in-stem.md">}}'>Wisdom in STEM program</a> invites you to lend your invaluable experience as a volunteer judge for the **2026 Alameda County Science &amp; Engineering Fair (ACSEF)**. This is a unique opportunity to directly mentor the next generation of innovators while providing essential support to one of our community's most important educational events.
@@ -59,19 +58,19 @@ We welcome professionals, academics, and enthusiasts from all STEM fields, inclu
 
 Join Caring Valley's Wisdom in STEM program and become a pivotal part of the 2026 Alameda County Science &amp; Engineering Fair!
 
-➡️ <a class="dib br3 ph2 pv1 hover-white bg-light-orange link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/cvn-registration'> REGISTER NOW</a> ⬅️  
+➡️ <a class="dib br3 ph2 pv1 hover-white bg-light-orange link nowrap" href='https://forms.gle/LGUmeRuYjpKqFEaM8'> REGISTER NOW</a> ⬅️  
 
 ---
 
 ### **Important Next Steps After Registering Here:**
 
 1. **Caring Valley Confirmation:** You will receive an email from Caring Valley confirming your registration and outlining the sponsorship impact.
-2. **Official ACSEF Registration:** To be officially assigned projects, all judges *must also create a profile and complete their registration* on the official ACSEF platform: <a class="link" href="https://acsef.zfairs.com/">acsef.zfairs.com</a> <span class="red">Please ensure your name and email match your Caring Valley registration</span>
+2. **Official ACSEF Registration:** To be officially assigned projects, all judges *must also create a profile and complete their registration* on the official ACSEF platform: <a class="link" href="https://acsef.zfairs.com/app/user/new/Judge/?f=76d904ca-4a82-4dbe-a703-c6b4477746a5">acsef.zfairs.com</a> <span class="red">Please ensure your name and email match your Caring Valley registration</span>
 
 ---
 
 #### **Questions?**
 <div class="f4 flex-ns flex-wrap items-center justify-between flex-row">
-  <blockquote class="w-100" style="margin: 1rem;" >Email <a class="link" href="mailto:wisdominstem@caringvalley.org" target="_blank">wisdom-in-stem@caringvalley.org</a></blockquote>
+  <blockquote class="w-100" style="margin: 1rem;" >Email <a class="link" href="mailto:wisdom-in-stem@caringvalley.org" target="_blank">wisdom-in-stem@caringvalley.org</a></blockquote>
   <blockquote class="w-100" style="margin: 1rem;">Or call <a class="link nowrap" href="tel:+15105767116" >+1-510-576-7116</a></blockquote>
 </div>
