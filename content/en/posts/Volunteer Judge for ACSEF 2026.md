@@ -12,9 +12,10 @@ featured_image_body = "202602/volunteer-judge-acsef2026.webp"
 
 
 ### **Make a Double Impact: Inspire Students &amp; Fund the Fair!**
+➡️ <a class="dib br3 ph2 pv1 hover-white bg-light-orange link nowrap" href='https://forms.gle/LGUmeRuYjpKqFEaM8'> REGISTER NOW</a> ⬅️  
 
 Caring Valley's <a class="b link" href='{{< relref "wisdom-in-stem.md">}}'>Wisdom in STEM program</a> invites you to lend your invaluable experience as a volunteer judge for the **2026 Alameda County Science &amp; Engineering Fair (ACSEF)**. This is a unique opportunity to directly mentor the next generation of innovators while providing essential support to one of our community's most important educational events.
-
+<!--more-->
 **Fair Date:** Saturday, March 14, 2026  
 **Location:** Chabot College, Hayward, CA  
 **Commitment:** Approximately 8:00 AM – 4:00 PM (includes orientation, judging, and lunch)
