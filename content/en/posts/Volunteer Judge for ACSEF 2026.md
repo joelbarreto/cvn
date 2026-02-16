@@ -72,6 +72,6 @@ Join Caring Valley's Wisdom in STEM program and become a pivotal part of the 202
 
 #### **Questions?**
 <div class="f4 flex-ns flex-wrap items-center justify-between flex-row">
-  <blockquote class="w-100" style="margin: 1rem;" >Email <a class="link" href="mailto:wisdom-in-stem@caringvalley.org" target="_blank">wisdom-in-stem@caringvalley.org</a></blockquote>
+  <blockquote class="w-100" style="margin: 1rem;" >Email <a class="link" href="mailto:wisdom-in-stem@programs.caringvalley.org" target="_blank">wisdom-in-stem@programs.caringvalley.org</a></blockquote>
   <blockquote class="w-100" style="margin: 1rem;">Or call <a class="link nowrap" href="tel:+15105767116" >+1-510-576-7116</a></blockquote>
 </div>
