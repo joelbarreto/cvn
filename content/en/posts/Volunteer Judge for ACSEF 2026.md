@@ -22,7 +22,7 @@ Caring Valley's <a class="b link" href='{{< relref "wisdom-in-stem.md">}}'>Wisdo
 
 ---
 
-### **Why Judge Through Caring Valley?**
+### **Why Register at Caring Valley?**
 
 When you register as an ACSEF judge through Caring Valley, your participation creates **two powerful outcomes:**
 
