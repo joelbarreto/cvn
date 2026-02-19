@@ -8,6 +8,8 @@ type = 'cvn'
 layout = ''
 omit_header_text = true
 featured_image_body = "202602/CVN-ACSEF.webp"
+read_more_copy = "Read More"
+weight = 2
 +++
 
 ### Grand Title Sponsor for ACSEF 2026 - A Caring Valley: Wisdom in STEM initiative
@@ -69,7 +71,7 @@ A Catalyst-level contribution sustains high-impact programming within the Wisdom
 
 <span class="dark-red">Together, we are building a more inclusive and accessible STEM future—one student, one mentor, and one transformative experience at a time.</span>
 
-### **Questions?**
+### **Interested in Sponsoring?**
 <div class="f4 flex-ns flex-wrap items-center justify-between flex-row">
   <blockquote class="w-100" style="margin: 1rem;" >Email <a class="link" href="mailto:wisdom-in-stem@programs.caringvalley.org" target="_blank">wisdom-in-stem@programs.caringvalley.org</a></blockquote>
   <blockquote class="w-100" style="margin: 1rem;">Or call <a class="link nowrap" href="tel:+15105767116" >+1-510-576-7116</a></blockquote>
