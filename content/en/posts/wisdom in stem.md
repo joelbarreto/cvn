@@ -1,6 +1,6 @@
 +++
 draft = false
-date = 2026-02-12
+date = 2026-01-21
 title = "Wisdom in STEM"
 description = "Program guide"
 
