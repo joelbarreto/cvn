@@ -7,7 +7,7 @@ description = "A Premier Donor Opportunity Supporting the Wisdom in STEM Initiat
 type = 'cvn'
 layout = ''
 omit_header_text = true
-featured_image_body = "202602/CVN-ACSEF.webp"
+featured_image_body = "202602/CVN+ACSEF.webp"
 read_more_copy = "Read More"
 weight = 2
 +++
