@@ -18,7 +18,7 @@ weight = 2
 
 ---
 
-<span class="green">Caring Valley Nonprofit (CVN)</span> is proud to partner with the <span class="green">Alameda County Science and Engineering Fair Association  <a class="link" href="https:www.acsef.org">(ACSEF)</a></span> to offer a high-impact corporate sponsorship opportunity. Through our <a class="link" href="{{<relref wisdom-in-stem.md>}}">Wisdom&nbsp;In&nbsp;STEM</a> program, your organization can double its influence: fueling young innovators and expanding STEM access across the Bay Area through meaningful mentorship.
+<span class="green">Caring Valley Nonprofit (CVN)</span> is proud to partner with the <span class="green">Alameda County Science and Engineering Fair Association  <a class="link" href="https://www.acsef.org">(ACSEF)</a></span> to offer a high-impact corporate sponsorship opportunity. Through our <a class="link" href="{{<relref wisdom-in-stem.md>}}">Wisdom&nbsp;In&nbsp;STEM</a> program, your organization can double its influence: fueling young innovators and expanding STEM access across the Bay Area through meaningful mentorship.
 
 ---
 ### Integrated Community Impact: Wisdom in STEM + ACSEF 2026

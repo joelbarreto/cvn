@@ -2,7 +2,7 @@
 draft = false
 date = '2025-02-18 10:56:07'
 expiryDate = '2027-01-21'
-title = 'Services in 2026'
+title = 'Services for Elders'
 
 description = "Local community support"
 omit_header_text = false
@@ -10,7 +10,6 @@ theme_version = "2.8.2"
 
 type = 'cvn'
 layout = ''
-weight = 1
 
 # featured_image_body = "/images/202507/Gemini Services for Elders.png"
 featured_image_body = "202507/Gemini Services for Elders.png"
