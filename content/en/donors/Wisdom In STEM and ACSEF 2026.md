@@ -47,7 +47,7 @@ Your name and logo will appear prominently on digital outreach, event banners, S
 
 #### Community Impact Spotlight
 
-Highlighted feature across Caring Valley and partner channels showcasing your commitment to STEM equity, community mentorship, and youth development.
+Highlighted feature across ACSEF, Caring Valley and partner channels showcasing your commitment to STEM equity, community mentorship, and youth development.
 
 #### VIP Engagement Opportunities
 
@@ -69,7 +69,8 @@ A Catalyst-level contribution sustains high-impact programming within the Wisdom
 - Expanded outreach to underrepresented youth
 - Technology &amp; materials funding for student STEM exploration
 
-<span class="dark-red">Together, we are building a more inclusive and accessible STEM future—one student, one mentor, and one transformative experience at a time.</span>
+<p class="dark-green">Your sponsorship supports the ACSEF 2026 program directly and is not a contribution to CVN.</p> 
+<p class="dark-red">Together, we are building a more inclusive and accessible STEM future—one student, one mentor, and one transformative experience at a time.</p>
 
 ### **Interested in Sponsoring?**
 <div class="f4 flex-ns flex-wrap items-center justify-between flex-row">
