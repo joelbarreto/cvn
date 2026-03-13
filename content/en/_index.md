@@ -32,6 +32,6 @@ In a world that often moves too fast, we believe meaningful change begins with p
 *Caring Valley has just started its mission*
 
 <div class = "tc">
-  <a class="dib br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/cvn-registration'>JOIN Caring Valley</a>
+  <a class="dib br3 ph2 pv1 hover-gold bg-white-20 white pulse-delay link nowrap" href='https://www.zeffy.com/en-US/newsletter-form/cvn-registration'>Join CVN's Interest Group</a>
 </div>
 
