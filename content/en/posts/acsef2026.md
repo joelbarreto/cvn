@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2026-03-14
 title = "Caring Valley at HSEF 2026"
 description = "Wisdom in STEM in Action at the annual Alameda County Science & Engineering Fair"
@@ -13,7 +13,7 @@ featured_image_body = "202603/acsef-judge-student.png"
 
 ### <span class="green">Wisdom in STEM in Action</psan>
 
-Caring Valley advanced its Wisdom in STEM mission at the Alameda County Science & Engineering Fair by supporting the event through experienced volunteer judges and by securing a grand title sponsor for the Science Fair and Community Initiative.
+Caring Valley advanced its Wisdom in STEM mission at the Alameda County Science & Engineering Fair by supporting the event through experienced volunteer judges and by securing Hitachi as the grand title sponsor for the joint Science Fair and Community Initiative.
 
 Our involvement focused on strengthening the fair’s educational impact: seasoned judges offered thoughtful evaluation and mentorship to student innovators, while the new title sponsorship expanded resources for both ACSEF and the broader community STEM effort.
 <!--more-->   
