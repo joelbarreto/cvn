@@ -1,7 +1,7 @@
 +++
 draft = false
 date = 2026-03-14
-title = "Caring Valley at HSEF 2026"
+title = "Caring Valley at ACSEF 2026"
 description = "Wisdom in STEM in Action at the annual Alameda County Science & Engineering Fair"
 
 type = 'cvn'
