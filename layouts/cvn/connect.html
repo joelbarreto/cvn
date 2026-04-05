@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="rustdesk-redirect-container" style="text-align: center; padding: 40px 20px;">
+    <h1>{{ .Title }}</h1>
+    
+    {{ .Content }}
+
+    <div style="margin-top: 30px;">
+        <a id="launch-btn" href="rustdesk://import/{{ .Params.rustdesk_config }}" 
+           class="button" 
+           style="display: inline-block; padding: 15px 30px; background-color: #007bff; color: white; border-radius: 8px; font-weight: bold; text-decoration: none;">
+           Launch Support App
+        </a>
+    </div>
+
+    <script>
+        const deepLink = "rustdesk://import/{{ .Params.rustdesk_config }}";
+        
+        // Try to launch automatically when the page loads
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = deepLink;
+            }, 500); // Small delay to let the page render
+        };
+    </script>
+</div>
+{{ end }}
+
