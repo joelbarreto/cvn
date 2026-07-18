@@ -17,9 +17,11 @@
           {{ $pageURL := .RelPermalink }}
           {{ with resources.Get (trim .Params.featured_image_body "/") }}
           {{ $resizedImg := .Fit "600x600"}}
-          <a class="dib tc br4" href="{{$pageURL}}">
-            <img src="{{ $resizedImg.RelPermalink }}" class="br--top br4">
-          </a>
+          <div class="tc overflow-hidden">
+            <a href="{{$pageURL}}">
+              <img src="{{ $resizedImg.RelPermalink }}" class="br--top br4">
+            </a>
+          </div>
           {{ end }}
           {{ .Render "summary" }}
         </div>
